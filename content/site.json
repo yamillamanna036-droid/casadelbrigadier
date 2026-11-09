@@ -1,0 +1,24 @@
+{
+  "cabecera": {
+    "texto_1": "Casa del Brigadier",
+    "texto_2": "Estanislao López",
+    "texto_3": "Inicio",
+    "texto_4": "Historia",
+    "texto_5": "La casa",
+    "texto_6": "Patrimonio",
+    "texto_7": "Planificá tu visita ",
+    "texto_8": "Menú "
+  },
+  "pie": {
+    "texto_1": "Casa del Brigadier",
+    "texto_2": "Estanislao López.",
+    "texto_3": "Volver al inicio ",
+    "texto_4": "Inicio",
+    "texto_5": "Historia",
+    "texto_6": "La casa",
+    "texto_7": "Patrimonio",
+    "texto_8": "Visita",
+    "texto_9": "SANTA FE · ARGENTINA",
+    "texto_10": "Conocé nuestro patrimonio "
+  }
+}

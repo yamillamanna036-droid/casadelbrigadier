@@ -1,0 +1,70 @@
+/* Three works, one gallery row, with each caption directly below its image. */
+.heritage .collection{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px;align-items:start;overflow:visible}
+.heritage .collection figure:nth-child(n){display:flex;flex-direction:column;grid-row:auto;padding:0;margin:0;border:0;gap:0;min-width:0}
+.heritage .collection figure:nth-child(n) .photo-button{height:auto;aspect-ratio:4/5;flex:none;width:100%}
+.heritage .collection figure:nth-child(n) img{object-fit:cover;object-position:center}
+.heritage .collection figure:nth-child(n) figcaption{width:100%;padding:0}
+.heritage .collection figure:nth-child(n) h3{font-size:30px;line-height:1.12;margin:23px 0 13px}
+.heritage .collection figure:nth-child(n) figcaption>span{font-size:8px;line-height:1.8;letter-spacing:1.5px}
+/* Photographic section headers, with a dark gradient beneath the copy. */
+.subpage .banner-hero{position:relative;isolation:isolate;overflow:hidden;min-height:650px;padding:48px 6% 100px;margin:24px 2.5% 28px;border-radius:24px;background:#342120;display:flex;align-items:center}
+.banner-hero .hero-backdrop{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 45%;border-radius:inherit;z-index:-2}
+.banner-hero:after{content:'';position:absolute;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(90deg,rgba(29,12,17,.96) 0%,rgba(29,12,17,.88) 28%,rgba(29,12,17,.62) 51%,rgba(29,12,17,.13) 78%,rgba(29,12,17,.06) 100%),linear-gradient(0deg,rgba(29,12,17,.72),transparent 30%)}
+.banner-hero .subhero-inner{width:100%;max-width:1280px;margin:0 auto;display:block}
+.banner-hero .subhero-copy{position:relative;max-width:640px}
+.subpage .banner-hero h1{color:var(--cream);font-size:clamp(52px,5.5vw,80px);line-height:1.05;margin:25px 0;letter-spacing:-2.8px;text-wrap:balance}
+.subpage .banner-hero .subhero-intro{color:#f9f0df;max-width:510px;font-size:13px;line-height:1.85;margin-bottom:26px}
+.subpage .banner-hero .eyebrow,.subpage .banner-hero .breadcrumbs{color:#f2e5c9df}
+.banner-hero .breadcrumbs{margin-bottom:33px}.banner-hero .breadcrumbs a:hover{color:white;text-decoration:underline}
+.subpage .banner-hero .text-link{color:var(--cream);border:1px solid #f2e5c9aa;padding:12px 17px;border-radius:12px;gap:30px;background:#f2e5c90b;backdrop-filter:blur(5px);transition:background .25s}
+.subpage .banner-hero .text-link:hover{background:#f2e5c922}
+.hero-photo-footer{position:absolute;left:6%;right:6%;bottom:24px;display:flex;align-items:center;justify-content:space-between;gap:35px}
+.hero-photo-footer p{color:#f2e5c9d9;font-size:9px;line-height:1.6;max-width:530px}
+.hero-enlarge{border:1px solid #f2e5c988;background:#29131d44;backdrop-filter:blur(7px);color:var(--cream);padding:11px 15px;border-radius:12px;font-size:10px;white-space:nowrap;display:inline-flex;align-items:center;gap:21px;transition:background .2s}
+.hero-enlarge:hover{background:#29131d99}.banner-hero a:focus-visible,.banner-hero button:focus-visible{outline-color:var(--cream)}
+.visita .banner-hero{background:#dcc69d}.visita .banner-hero .hero-backdrop{object-position:65% 52%}
+.historia .banner-hero .hero-backdrop{object-position:center 48%}.casa .banner-hero .hero-backdrop{object-position:center 55%}
+@media(min-width:1550px){.subpage .banner-hero{min-height:720px;padding-left:max(6%,calc((100vw - 1280px)/2));padding-right:max(6%,calc((100vw - 1280px)/2))}}
+@media(max-width:1050px){.heritage .collection{gap:22px}.heritage .collection figure:nth-child(n) h3{font-size:26px}.subpage .banner-hero{min-height:620px}.subpage .banner-hero h1{font-size:65px}.banner-hero .subhero-copy{max-width:590px}.subpage .banner-hero .subhero-intro{max-width:460px}.banner-hero:after{background:linear-gradient(90deg,#1d0c11ed 0%,#1d0c11d6 35%,#1d0c1180 66%,#1d0c1126),linear-gradient(0deg,#1d0c11b8,transparent 30%)}}
+@media(max-width:760px){.heritage .collection{grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:78%;gap:22px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:18px;scrollbar-width:thin;scrollbar-color:#d9b69b var(--wine-dark)}.heritage .collection figure:nth-child(n){scroll-snap-align:start}.heritage .collection figure:nth-child(n) h3{font-size:28px;margin-top:19px}.heritage .collection figure:nth-child(n) .photo-button{aspect-ratio:4/5}.subpage .banner-hero{min-height:660px;margin:16px 4% 20px;border-radius:20px;padding:30px 6% 120px;align-items:center}.banner-hero .subhero-copy{max-width:100%}.subpage .banner-hero h1{font-size:clamp(47px,10vw,67px);letter-spacing:-2px;margin:24px 0 23px;line-height:1.07}.subpage .banner-hero .subhero-intro{font-size:12px;line-height:1.85;max-width:430px}.banner-hero .breadcrumbs{font-size:9px;margin-bottom:35px}.subpage .banner-hero .eyebrow{font-size:7px;letter-spacing:1px}.banner-hero:after{background:linear-gradient(90deg,#1d0c11e0 0%,#1d0c11a8 70%,#1d0c1170),linear-gradient(0deg,#1d0c11e6 0%,#1d0c1100 80%)}.banner-hero .hero-backdrop{object-position:60% center}.hero-photo-footer{left:6%;right:6%;bottom:22px;gap:15px;align-items:end}.hero-photo-footer p{font-size:8px;max-width:56%}.hero-enlarge{font-size:9px;padding:10px 11px;gap:10px}.visita .banner-hero .hero-backdrop{object-position:64% center}.subpage .banner-hero .text-link{font-size:10px;padding:11px 14px}}
+@media(prefers-reduced-motion:reduce){.banner-hero .subhero-copy{animation:none}}
+
+.hero-photo-footer.no-caption{justify-content:flex-end}
+
+/* One consistent burgundy across all photographic page headers. */
+:is(.historia,.casa,.patrimonio,.visita) .banner-hero{--banner-tone:132,24,47;background:#84182f}
+:is(.historia,.casa,.patrimonio,.visita) .banner-hero:after{background:linear-gradient(90deg,rgba(var(--banner-tone),.98) 0%,rgba(var(--banner-tone),.94) 28%,rgba(var(--banner-tone),.88) 51%,rgba(var(--banner-tone),.20) 78%,rgba(var(--banner-tone),.08) 100%),linear-gradient(0deg,rgba(var(--banner-tone),.72),transparent 30%)}
+:is(.historia,.casa,.patrimonio,.visita) .hero-enlarge{background:rgba(var(--banner-tone),.45)}
+:is(.historia,.casa,.patrimonio,.visita) .hero-enlarge:hover{background:rgba(var(--banner-tone),.75)}
+@media(max-width:1050px){:is(.historia,.casa,.patrimonio,.visita) .banner-hero:after{background:linear-gradient(90deg,rgba(var(--banner-tone),.98) 0%,rgba(var(--banner-tone),.95) 35%,rgba(var(--banner-tone),.88) 66%,rgba(var(--banner-tone),.25)),linear-gradient(0deg,rgba(var(--banner-tone),.72),transparent 30%)}}
+@media(max-width:760px){:is(.historia,.casa,.patrimonio,.visita) .banner-hero:after{background:linear-gradient(90deg,rgba(var(--banner-tone),.96) 0%,rgba(var(--banner-tone),.91) 70%,rgba(var(--banner-tone),.86)),linear-gradient(0deg,rgba(var(--banner-tone),.65) 0%,rgba(var(--banner-tone),0) 80%)}}
+
+/* A quiet architectural ornament replaces the divider's words. */
+.hero-bottom{justify-content:center}
+.architectural-divider{padding:0;height:64px;display:block;overflow:hidden;color:var(--cream)}
+.architectural-divider svg{display:block;width:100%;height:64px;opacity:.65}
+@media(max-width:760px){.architectural-divider,.architectural-divider svg{height:56px}}
+
+/* The Brigadier's silhouette replaces the architectural ornament. */
+.brigadier-divider{height:176px;padding:18px 6%;display:flex;align-items:center;justify-content:center;gap:38px;background:var(--wine);overflow:hidden}
+.brigadier-divider:before,.brigadier-divider:after{content:'';height:1px;flex:1;max-width:420px;background:var(--cream);opacity:.35}
+.brigadier-silhouette{display:block;flex:none;width:150px;height:140px;background:var(--cream);-webkit-mask:url('/assets/brigadier-silhouette.png') center/contain no-repeat;mask:url('/assets/brigadier-silhouette.png') center/contain no-repeat}
+@media(max-width:760px){.brigadier-divider{height:148px;padding:14px 6%;gap:22px}.brigadier-silhouette{width:126px;height:120px}}
+
+/* Keep the entire house illustration inside its own responsive layout box. */
+.hero{grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr);padding-bottom:90px}
+.hero .hero-copy{padding-bottom:0;min-width:0}
+.hero .hero-visual{margin:0;align-self:center;min-width:0;width:100%;height:clamp(360px,36vw,580px);display:grid;place-items:center}
+.hero .hero-visual .facade{position:absolute;inset:0;display:block;width:100%;height:100%;max-width:100%;max-height:100%;object-fit:contain;object-position:center}
+.hero .hero-visual .arch{width:80%;height:80%;left:10%;bottom:4%}
+.hero .hero-visual .round-link{top:10px;right:0}
+@media(max-width:760px){.hero{padding-bottom:0}.hero .hero-visual{height:auto;aspect-ratio:1;max-height:none;flex-shrink:0;margin:28px 0 0}.hero .hero-visual .round-link{top:0;right:0}}
+
+/* Shared brand mark uses the same silhouette as the homepage divider. */
+.header .brand{gap:12px;min-width:0}
+.brand-silhouette{display:block;flex:0 0 50px;width:50px;height:60px;background:var(--wine);-webkit-mask:url('/assets/brigadier-silhouette.png') center/contain no-repeat;mask:url('/assets/brigadier-silhouette.png') center/contain no-repeat}
+@media(max-width:760px){.header .brand{gap:10px}.brand-silhouette{flex-basis:38px;width:38px;height:48px}}
+@media(max-width:360px){.header .brand{gap:8px}.brand-silhouette{flex-basis:32px;width:32px;height:42px}}
+
+/* Draw navigation arrows as SVG strokes, independent of system emoji fonts. */
+.arrow-icon{display:inline-block;width:1.05em;height:1.05em;min-width:12px;min-height:12px;vertical-align:-.14em;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0;pointer-events:none}

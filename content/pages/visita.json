@@ -1,0 +1,135 @@
+{
+  "seo": {
+    "descripcion": "Planificá tu visita a la Casa del Brigadier. Encontrá los horarios, la ubicación y los canales de contacto para preparar tu recorrido por el casco histórico de Santa Fe.",
+    "titulo_social": "Visita · Casa del Brigadier",
+    "descripcion_social": "Casa del Brigadier Estanislao López · Santa Fe",
+    "titulo": "Visita · Casa del Brigadier Estanislao López"
+  },
+  "secciones": {
+    "inicio": {
+      "imagenes": {
+        "imagen_1": {
+          "archivo": "/assets/visita-1.png",
+          "alternativo": "Fachada de la Casa del Brigadier Estanislao López",
+          "epigrafe": ""
+        }
+      },
+      "textos": {
+        "boton_1": "Inicio",
+        "etiqueta_1": "Visita",
+        "parrafo_1": "CASA DEL BRIGADIER ESTANISLAO LÓPEZ",
+        "titulo_1": "La historia",
+        "titulo_2": "te ",
+        "titulo_3": "espera.",
+        "parrafo_2": "Planificá tu visita a la Casa del Brigadier. Encontrá los horarios, la ubicación y los canales de contacto para preparar tu recorrido por el casco histórico de Santa Fe.",
+        "boton_2": "Empezá a descubrir "
+      }
+    },
+    "horarios": {
+      "enlaces": {
+        "enlace_1": "https://www.santafecultura.gob.ar/espacio/museo-y-centro-de-interpretacion-cultural-casa-del-brigadier-estanislao-lopez/"
+      },
+      "textos": {
+        "parrafo_1": "01 / DÍAS Y HORARIOS",
+        "titulo_1": "Elegí tu momento",
+        "titulo_2": "para ",
+        "titulo_3": "venir.",
+        "parrafo_2": "La casa abre durante la semana y los fines de semana. Estos son los horarios de referencia publicados por Santa Fe Cultura.",
+        "etiqueta_1": "Martes",
+        "etiqueta_2": "9 a 15 h",
+        "etiqueta_3": "Miércoles a viernes",
+        "etiqueta_4": "9 a 18 h",
+        "etiqueta_5": "Sábados y domingos",
+        "etiqueta_6": "16 a 19 h",
+        "parrafo_3": "Para feriados, actividades especiales o cambios de temporada, confirmá los horarios con el museo antes de venir.",
+        "boton_1": "Consultá la ficha de Santa Fe Cultura "
+      }
+    },
+    "ubicacion": {
+      "enlaces": {
+        "enlace_1": "https://www.google.com/maps/search/?api=1&query=Casa+del+Brigadier+Estanislao+Lopez+General+Lopez+2792+Santa+Fe",
+        "enlace_2": "https://maps.google.com/maps?q=Casa%20del%20Brigadier%20Estanislao%20Lopez%20Santa%20Fe&z=16&output=embed"
+      },
+      "textos": {
+        "parrafo_1": "02 / UBICACIÓN",
+        "titulo_1": "Una esquina.",
+        "titulo_2": "Todo un ",
+        "titulo_3": "encuentro.",
+        "direccion_1": "Av. Gral. López 2792",
+        "direccion_2": "Santa Fe de la Vera Cruz, Argentina",
+        "parrafo_2": "En la esquina de General López y 9 de Julio, en el casco histórico de la ciudad.",
+        "boton_1": "Cómo llegar ",
+        "etiqueta_1": "SANTA FE · BARRIO SUR"
+      }
+    },
+    "contacto": {
+      "enlaces": {
+        "enlace_1": "mailto:casabrigadier.sf@gmail.com?subject=Consulta%20por%20visita%20al%20museo",
+        "enlace_2": "tel:+543424835396",
+        "enlace_3": "mailto:casabrigadier.sf@gmail.com",
+        "enlace_4": "https://www.instagram.com/casadelbrigadier/"
+      },
+      "textos": {
+        "parrafo_1": "03 / CONSULTAS Y GRUPOS",
+        "titulo_1": "Un recorrido para",
+        "titulo_2": "compartir.",
+        "parrafo_2": "Si querés organizar una visita con tu escuela o un grupo, contactá al museo para consultar propuestas, disponibilidad y condiciones del recorrido.",
+        "boton_1": "Consultá por una visita ",
+        "nota_1": "TELÉFONO",
+        "boton_2": "0342 483-5396 ",
+        "nota_2": "CORREO ELECTRÓNICO",
+        "boton_3": "casabrigadier.sf@gmail.com ",
+        "nota_3": "INSTAGRAM",
+        "boton_4": "@casadelbrigadier "
+      }
+    },
+    "preguntas": {
+      "enlaces": {
+        "enlace_1": "mailto:casabrigadier.sf@gmail.com?subject=Consulta%20por%20visita%20escolar",
+        "enlace_2": "tel:+543424835396"
+      },
+      "textos": {
+        "parrafo_1": "04 / ANTES DE VENIR",
+        "titulo_1": "Algunas ",
+        "titulo_2": "preguntas.",
+        "desplegable_1": "¿Cómo coordino una visita escolar?",
+        "parrafo_2": "Comunicate por teléfono o correo con el museo. Podés indicar el nombre de la institución, la cantidad de personas y las fechas que te interesan para consultar disponibilidad y propuestas.",
+        "boton_1": "Contactá al museo ",
+        "desplegable_2": "¿Qué puedo conocer durante el recorrido?",
+        "parrafo_3": "Los patios y ambientes de la casa, las salas dedicadas a sus habitantes, retratos, objetos y el trabajo arqueológico. Las exhibiciones temporales pueden variar.",
+        "boton_2": "Explorá los espacios ",
+        "desplegable_3": "¿Los horarios cambian en feriados?",
+        "parrafo_4": "Los horarios de referencia no garantizan la apertura durante feriados o actividades especiales. Confirmá la información directamente con el museo antes de organizar tu visita.",
+        "desplegable_4": "¿Dónde consulto sobre accesibilidad?",
+        "parrafo_5": "Para conocer las condiciones de acceso y circulación, o consultar apoyos para tu recorrido, comunicate previamente con el museo y contales qué necesitás.",
+        "boton_3": "Llamá al 0342 483-5396 "
+      }
+    },
+    "pie": {
+      "enlaces": {
+        "enlace_1": "https://www.santafeciudad.gov.ar/capitalcultural/huellas-de-mi-ciudad/patrimonio-publico/arquitectonico/casa-del-brigadier-estanislao-lopez/"
+      }
+    },
+    "navegacion": {
+      "textos": {
+        "boton_1": "Saltar al contenido",
+        "etiqueta_1": "EN ESTA PÁGINA",
+        "boton_2": "Horarios",
+        "boton_3": "Cómo llegar",
+        "boton_4": "Consultas y grupos",
+        "boton_5": "Preguntas"
+      }
+    },
+    "continuar": {
+      "textos": {
+        "parrafo_1": "SEGUÍ EL RECORRIDO",
+        "titulo_1": "Conocé un poco más",
+        "titulo_2": "antes de ",
+        "titulo_3": "venir.",
+        "parrafo_2": "Descubrí los ambientes y las piezas que te esperan en el recorrido por la Casa del Brigadier.",
+        "boton_1": "Conocé la casa",
+        "boton_2": "Explorá el patrimonio"
+      }
+    }
+  }
+}

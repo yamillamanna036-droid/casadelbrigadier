@@ -1,0 +1,4163 @@
+{
+  "backend": {
+    "name": "github",
+    "repo": "CONFIGURAR/REPOSITORIO",
+    "branch": "main",
+    "base_url": "https://casadelbrigadier.netlify.app",
+    "auth_endpoint": "api/auth"
+  },
+  "locale": "es",
+  "site_url": "https://casadelbrigadier.netlify.app",
+  "display_url": "https://casadelbrigadier.netlify.app",
+  "media_folder": "public/assets",
+  "public_folder": "/assets",
+  "publish_mode": "simple",
+  "editor": {
+    "preview": false
+  },
+  "collections": [
+    {
+      "name": "paginas",
+      "label": "Páginas",
+      "format": "json",
+      "files": [
+        {
+          "label": "Inicio",
+          "name": "inicio",
+          "file": "content/pages/inicio.json",
+          "fields": [
+            {
+              "label": "Buscadores y redes",
+              "name": "seo",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "label": "Descripción",
+                  "name": "descripcion",
+                  "widget": "text",
+                  "required": false
+                },
+                {
+                  "label": "Título en redes",
+                  "name": "titulo_social",
+                  "widget": "text",
+                  "required": false
+                },
+                {
+                  "label": "Descripción en redes",
+                  "name": "descripcion_social",
+                  "widget": "text",
+                  "required": false
+                },
+                {
+                  "label": "Título de la pestaña",
+                  "name": "titulo",
+                  "widget": "text",
+                  "required": false
+                }
+              ]
+            },
+            {
+              "label": "Secciones de la página",
+              "name": "secciones",
+              "widget": "object",
+              "fields": [
+                {
+                  "label": "Inicio",
+                  "name": "inicio",
+                  "widget": "object",
+                  "collapsed": true,
+                  "fields": [
+                    {
+                      "label": "Imágenes",
+                      "name": "imagenes",
+                      "widget": "object",
+                      "collapsed": true,
+                      "fields": [
+                        {
+                          "label": "Imagen · Fachada de la Casa del Brigadier Estanislao López, con sus balcon",
+                          "name": "imagen_1",
+                          "widget": "object",
+                          "collapsed": true,
+                          "fields": [
+                            {
+                              "label": "Imagen",
+                              "name": "archivo",
+                              "widget": "image",
+                              "required": true
+                            },
+                            {
+                              "label": "Descripción accesible",
+                              "name": "alternativo",
+                              "widget": "string",
+                              "required": false
+                            },
+                            {
+                              "label": "Epígrafe / descripción al ampliar",
+                              "name": "epigrafe",
+                              "widget": "text",
+                              "required": false
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Textos",
+                      "name": "textos",
+                      "widget": "object",
+                      "collapsed": true,
+                      "fields": [
+                        {
+                          "label": "Título · Casa del",
+                          "name": "titulo_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · Brigadier",
+                          "name": "titulo_2",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · Estanislao López.",
+                          "name": "titulo_3",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · Un encuentro con la arquitectura, la memoria y el patrimonio q",
+                          "name": "parrafo_1",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Texto del enlace · Comenzá el recorrido",
+                          "name": "boton_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Texto del enlace · Vení a",
+                          "name": "boton_2",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Texto del enlace · conocerla",
+                          "name": "boton_3",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Texto del enlace · Deslizá para descubrir",
+                          "name": "boton_4",
+                          "widget": "string",
+                          "required": false
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Conocé la casa",
+                  "name": "casa",
+                  "widget": "object",
+                  "collapsed": true,
+                  "fields": [
+                    {
+                      "label": "Imágenes",
+                      "name": "imagenes",
+                      "widget": "object",
+                      "collapsed": true,
+                      "fields": [
+                        {
+                          "label": "Imagen · Patio de las visitas de la Casa del Brigadier",
+                          "name": "imagen_1",
+                          "widget": "object",
+                          "collapsed": true,
+                          "fields": [
+                            {
+                              "label": "Imagen",
+                              "name": "archivo",
+                              "widget": "image",
+                              "required": true
+                            },
+                            {
+                              "label": "Descripción accesible",
+                              "name": "alternativo",
+                              "widget": "string",
+                              "required": false
+                            },
+                            {
+                              "label": "Epígrafe / descripción al ampliar",
+                              "name": "epigrafe",
+                              "widget": "text",
+                              "required": false
+                            }
+                          ]
+                        },
+                        {
+                          "label": "Imagen · Arco del ingreso interior con reja de hierro forjado",
+                          "name": "imagen_2",
+                          "widget": "object",
+                          "collapsed": true,
+                          "fields": [
+                            {
+                              "label": "Imagen",
+                              "name": "archivo",
+                              "widget": "image",
+                              "required": true
+                            },
+                            {
+                              "label": "Descripción accesible",
+                              "name": "alternativo",
+                              "widget": "string",
+                              "required": false
+                            },
+                            {
+                              "label": "Epígrafe / descripción al ampliar",
+                              "name": "epigrafe",
+                              "widget": "text",
+                              "required": false
+                            }
+                          ]
+                        },
+                        {
+                          "label": "Imagen · Línea histórica de la evolución arquitectónica de la casa present",
+                          "name": "imagen_3",
+                          "widget": "object",
+                          "collapsed": true,
+                          "fields": [
+                            {
+                              "label": "Imagen",
+                              "name": "archivo",
+                              "widget": "image",
+                              "required": true
+                            },
+                            {
+                              "label": "Descripción accesible",
+                              "name": "alternativo",
+                              "widget": "string",
+                              "required": false
+                            },
+                            {
+                              "label": "Epígrafe / descripción al ampliar",
+                              "name": "epigrafe",
+                              "widget": "text",
+                              "required": false
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Textos",
+                      "name": "textos",
+                      "widget": "object",
+                      "collapsed": true,
+                      "fields": [
+                        {
+                          "label": "Párrafo · 02 / LA CASA",
+                          "name": "parrafo_1",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Etiqueta · UN RECORRIDO POR SU ARQUITECTURA",
+                          "name": "etiqueta_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · Espacios con",
+                          "name": "titulo_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · memoria.",
+                          "name": "titulo_2",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · Patios, puertas y detalles que nos invitan a mirar de cerca. D",
+                          "name": "parrafo_2",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Etiqueta · Ampliar",
+                          "name": "etiqueta_2",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Epígrafe · 01",
+                          "name": "epigrafe_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · El patio de las visitas",
+                          "name": "titulo_3",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · Un espacio de encuentro y circulación.",
+                          "name": "parrafo_3",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Etiqueta · Ampliar",
+                          "name": "etiqueta_3",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Epígrafe · 02",
+                          "name": "epigrafe_2",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · El arte de los detalles",
+                          "name": "titulo_4",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · El ingreso y su arquitectura.",
+                          "name": "parrafo_4",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Etiqueta · Ampliar",
+                          "name": "etiqueta_4",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Epígrafe · 03",
+                          "name": "epigrafe_3",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · La casa a través del tiempo",
+                          "name": "titulo_5",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · Una línea histórica de su evolución arquitectónica.",
+                          "name": "parrafo_5",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Texto del enlace · Recorré todos los espacios",
+                          "name": "boton_1",
+                          "widget": "string",
+                          "required": false
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Patrimonio",
+                  "name": "patrimonio",
+                  "widget": "object",
+                  "collapsed": true,
+                  "fields": [
+                    {
+                      "label": "Imágenes",
+                      "name": "imagenes",
+                      "widget": "object",
+                      "collapsed": true,
+                      "fields": [
+                        {
+                          "label": "Imagen · Busto de piedra con la inscripción Brigadier Estanislao López",
+                          "name": "imagen_1",
+                          "widget": "object",
+                          "collapsed": true,
+                          "fields": [
+                            {
+                              "label": "Imagen",
+                              "name": "archivo",
+                              "widget": "image",
+                              "required": true
+                            },
+                            {
+                              "label": "Descripción accesible",
+                              "name": "alternativo",
+                              "widget": "string",
+                              "required": false
+                            },
+                            {
+                              "label": "Epígrafe / descripción al ampliar",
+                              "name": "epigrafe",
+                              "widget": "text",
+                              "required": false
+                            }
+                          ]
+                        },
+                        {
+                          "label": "Imagen · Pintura histórica de Estanislao López montado a caballo",
+                          "name": "imagen_2",
+                          "widget": "object",
+                          "collapsed": true,
+                          "fields": [
+                            {
+                              "label": "Imagen",
+                              "name": "archivo",
+                              "widget": "image",
+                              "required": true
+                            },
+                            {
+                              "label": "Descripción accesible",
+                              "name": "alternativo",
+                              "widget": "string",
+                              "required": false
+                            },
+                            {
+                              "label": "Epígrafe / descripción al ampliar",
+                              "name": "epigrafe",
+                              "widget": "text",
+                              "required": false
+                            }
+                          ]
+                        },
+                        {
+                          "label": "Imagen · Publicaciones históricas exhibidas en una vitrina de madera",
+                          "name": "imagen_3",
+                          "widget": "object",
+                          "collapsed": true,
+                          "fields": [
+                            {
+                              "label": "Imagen",
+                              "name": "archivo",
+                              "widget": "image",
+                              "required": true
+                            },
+                            {
+                              "label": "Descripción accesible",
+                              "name": "alternativo",
+                              "widget": "string",
+                              "required": false
+                            },
+                            {
+                              "label": "Epígrafe / descripción al ampliar",
+                              "name": "epigrafe",
+                              "widget": "text",
+                              "required": false
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Textos",
+                      "name": "textos",
+                      "widget": "object",
+                      "collapsed": true,
+                      "fields": [
+                        {
+                          "label": "Párrafo · 03 / PATRIMONIO",
+                          "name": "parrafo_1",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Etiqueta · OBJETOS QUE NOS CUENTAN",
+                          "name": "etiqueta_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · Miradas que",
+                          "name": "titulo_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · atraviesan el",
+                          "name": "titulo_2",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · tiempo.",
+                          "name": "titulo_3",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · Retratos, esculturas y documentos. Distintas formas de acercar",
+                          "name": "parrafo_2",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Etiqueta · SELECCIONÁ UNA IMAGEN PARA EXPLORARLA",
+                          "name": "etiqueta_2",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Etiqueta · Ver pieza",
+                          "name": "etiqueta_3",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · El rostro de la historia",
+                          "name": "titulo_4",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Epígrafe · BUSTOS Y ESCULTURAS",
+                          "name": "epigrafe_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Etiqueta · Ver pieza",
+                          "name": "etiqueta_4",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · Retratar una época",
+                          "name": "titulo_5",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Epígrafe · CUADROS Y PINTURAS",
+                          "name": "epigrafe_2",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Etiqueta · Ver pieza",
+                          "name": "etiqueta_5",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · La memoria escrita",
+                          "name": "titulo_6",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Epígrafe · DOCUMENTOS Y PUBLICACIONES",
+                          "name": "epigrafe_3",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Texto del enlace · Explorá el patrimonio en exhibición",
+                          "name": "boton_1",
+                          "widget": "string",
+                          "required": false
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "La casa está viva",
+                  "name": "actividades",
+                  "widget": "object",
+                  "collapsed": true,
+                  "fields": [
+                    {
+                      "label": "Imágenes",
+                      "name": "imagenes",
+                      "widget": "object",
+                      "collapsed": true,
+                      "fields": [
+                        {
+                          "label": "Imagen · Guía del museo compartiendo historias con un grupo de niñas y niñ",
+                          "name": "imagen_1",
+                          "widget": "object",
+                          "collapsed": true,
+                          "fields": [
+                            {
+                              "label": "Imagen",
+                              "name": "archivo",
+                              "widget": "image",
+                              "required": true
+                            },
+                            {
+                              "label": "Descripción accesible",
+                              "name": "alternativo",
+                              "widget": "string",
+                              "required": false
+                            },
+                            {
+                              "label": "Epígrafe / descripción al ampliar",
+                              "name": "epigrafe",
+                              "widget": "text",
+                              "required": false
+                            }
+                          ]
+                        },
+                        {
+                          "label": "Imagen · Niñas y niños dibujando y coloreando láminas de la casa",
+                          "name": "imagen_2",
+                          "widget": "object",
+                          "collapsed": true,
+                          "fields": [
+                            {
+                              "label": "Imagen",
+                              "name": "archivo",
+                              "widget": "image",
+                              "required": true
+                            },
+                            {
+                              "label": "Descripción accesible",
+                              "name": "alternativo",
+                              "widget": "string",
+                              "required": false
+                            },
+                            {
+                              "label": "Epígrafe / descripción al ampliar",
+                              "name": "epigrafe",
+                              "widget": "text",
+                              "required": false
+                            }
+                          ]
+                        },
+                        {
+                          "label": "Imagen · Grupo de estudiantes recorriendo una sala de exposición",
+                          "name": "imagen_3",
+                          "widget": "object",
+                          "collapsed": true,
+                          "fields": [
+                            {
+                              "label": "Imagen",
+                              "name": "archivo",
+                              "widget": "image",
+                              "required": true
+                            },
+                            {
+                              "label": "Descripción accesible",
+                              "name": "alternativo",
+                              "widget": "string",
+                              "required": false
+                            },
+                            {
+                              "label": "Epígrafe / descripción al ampliar",
+                              "name": "epigrafe",
+                              "widget": "text",
+                              "required": false
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Textos",
+                      "name": "textos",
+                      "widget": "object",
+                      "collapsed": true,
+                      "fields": [
+                        {
+                          "label": "Párrafo · 04 / ENCUENTROS",
+                          "name": "parrafo_1",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Etiqueta · EL PATRIMONIO SE COMPARTE",
+                          "name": "etiqueta_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · La casa está",
+                          "name": "titulo_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · viva.",
+                          "name": "titulo_2",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · La historia también sucede hoy. Recorridos y propuestas educat",
+                          "name": "parrafo_2",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Etiqueta · 01",
+                          "name": "etiqueta_2",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · Visitas guiadas",
+                          "name": "titulo_3",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · Cada recorrido es una conversación con el pasado. Conocé la ca",
+                          "name": "parrafo_3",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Etiqueta · 02",
+                          "name": "etiqueta_3",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · Propuestas educativas",
+                          "name": "titulo_4",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · Observar, dibujar y aprender: distintas maneras de acercarse a",
+                          "name": "parrafo_4",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Etiqueta · 03",
+                          "name": "etiqueta_4",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · Recorridos escolares",
+                          "name": "titulo_5",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · Una experiencia para descubrir en grupo. Si sos docente, conta",
+                          "name": "parrafo_5",
+                          "widget": "text",
+                          "required": false
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Visita",
+                  "name": "visita",
+                  "widget": "object",
+                  "collapsed": true,
+                  "fields": [
+                    {
+                      "label": "Destinos de enlaces",
+                      "name": "enlaces",
+                      "widget": "object",
+                      "collapsed": true,
+                      "fields": [
+                        {
+                          "label": "Destino · https://www.google.com/maps/search/?api=1&query=Casa+del+Brigadie",
+                          "name": "enlace_1",
+                          "widget": "string",
+                          "required": true
+                        },
+                        {
+                          "label": "Destino · mailto:casabrigadier.sf@gmail.com",
+                          "name": "enlace_2",
+                          "widget": "string",
+                          "required": true
+                        },
+                        {
+                          "label": "Destino · tel:+543424835396",
+                          "name": "enlace_3",
+                          "widget": "string",
+                          "required": true
+                        },
+                        {
+                          "label": "Destino · https://www.instagram.com/casadelbrigadier/",
+                          "name": "enlace_4",
+                          "widget": "string",
+                          "required": true
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Textos",
+                      "name": "textos",
+                      "widget": "object",
+                      "collapsed": true,
+                      "fields": [
+                        {
+                          "label": "Párrafo · 05 / TU PRÓXIMA VISITA",
+                          "name": "parrafo_1",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Etiqueta · EN EL CORAZÓN DEL BARRIO SUR",
+                          "name": "etiqueta_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · Las puertas",
+                          "name": "titulo_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · están",
+                          "name": "titulo_2",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · abiertas.",
+                          "name": "titulo_3",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · Acercate a descubrir una casa que sigue contando la historia d",
+                          "name": "parrafo_2",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Texto del enlace · Cómo llegar",
+                          "name": "boton_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Etiqueta · ENCONTRANOS EN",
+                          "name": "etiqueta_2",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · Av. Gral. López 2792",
+                          "name": "parrafo_3",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · Santa Fe de la Vera Cruz, Argentina",
+                          "name": "parrafo_4",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Nota · Esquina 9 de Julio y General López.",
+                          "name": "nota_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · Elegí tu momento",
+                          "name": "titulo_4",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Día · Martes",
+                          "name": "dia_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Horario · 9 a 15 h",
+                          "name": "horario_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Día · Miércoles a viernes",
+                          "name": "dia_2",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Horario · 9 a 18 h",
+                          "name": "horario_2",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Día · Sábados y domingos",
+                          "name": "dia_3",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Horario · 16 a 19 h",
+                          "name": "horario_3",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · Para feriados y visitas grupales, consultá previamente con el ",
+                          "name": "parrafo_5",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · Conversemos",
+                          "name": "titulo_5",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Texto del enlace · casabrigadier.sf@gmail.com",
+                          "name": "boton_2",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Texto del enlace · 0342 483-5396",
+                          "name": "boton_3",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Texto del enlace · @casadelbrigadier",
+                          "name": "boton_4",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Texto del enlace · Toda la información para tu visita",
+                          "name": "boton_5",
+                          "widget": "string",
+                          "required": false
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "pie",
+                  "name": "pie",
+                  "widget": "object",
+                  "collapsed": true,
+                  "fields": [
+                    {
+                      "label": "Destinos de enlaces",
+                      "name": "enlaces",
+                      "widget": "object",
+                      "collapsed": true,
+                      "fields": [
+                        {
+                          "label": "Destino · https://www.santafeciudad.gov.ar/capitalcultural/huellas-de-mi-ci",
+                          "name": "enlace_1",
+                          "widget": "string",
+                          "required": true
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Navegación interna",
+                  "name": "navegacion",
+                  "widget": "object",
+                  "collapsed": true,
+                  "fields": [
+                    {
+                      "label": "Textos",
+                      "name": "textos",
+                      "widget": "object",
+                      "collapsed": true,
+                      "fields": [
+                        {
+                          "label": "Texto del enlace · Saltar al contenido",
+                          "name": "boton_1",
+                          "widget": "string",
+                          "required": false
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Historia",
+                  "name": "historia",
+                  "widget": "object",
+                  "collapsed": true,
+                  "fields": [
+                    {
+                      "label": "Textos",
+                      "name": "textos",
+                      "widget": "object",
+                      "collapsed": true,
+                      "fields": [
+                        {
+                          "label": "Párrafo · 01 / NUESTRA HISTORIA",
+                          "name": "parrafo_1",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Etiqueta · EL TIEMPO DEJA SUS HUELLAS",
+                          "name": "etiqueta_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · La historia vive",
+                          "name": "titulo_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · entre estos",
+                          "name": "titulo_2",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · muros.",
+                          "name": "titulo_3",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · Una vivienda, un lugar de encuentro, un archivo y un museo. Ca",
+                          "name": "parrafo_2",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Texto del enlace · Conocé toda la historia",
+                          "name": "boton_1",
+                          "widget": "string",
+                          "required": false
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Línea de tiempo",
+              "name": "cronologia",
+              "widget": "list",
+              "min": 5,
+              "max": 5,
+              "summary": "{{fields.anio}} · {{fields.titulo}}",
+              "fields": [
+                {
+                  "label": "Año",
+                  "name": "anio",
+                  "widget": "string",
+                  "required": true,
+                  "pattern": [
+                    "^[0-9]{4}$",
+                    "Usá cuatro dígitos"
+                  ]
+                },
+                {
+                  "label": "Título",
+                  "name": "titulo",
+                  "widget": "string",
+                  "required": true
+                },
+                {
+                  "label": "Descripción",
+                  "name": "texto",
+                  "widget": "text",
+                  "required": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Historia",
+          "name": "historia",
+          "file": "content/pages/historia.json",
+          "fields": [
+            {
+              "label": "Buscadores y redes",
+              "name": "seo",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "label": "Descripción",
+                  "name": "descripcion",
+                  "widget": "text",
+                  "required": false
+                },
+                {
+                  "label": "Título en redes",
+                  "name": "titulo_social",
+                  "widget": "text",
+                  "required": false
+                },
+                {
+                  "label": "Descripción en redes",
+                  "name": "descripcion_social",
+                  "widget": "text",
+                  "required": false
+                },
+                {
+                  "label": "Título de la pestaña",
+                  "name": "titulo",
+                  "widget": "text",
+                  "required": false
+                }
+              ]
+            },
+            {
+              "label": "Secciones de la página",
+              "name": "secciones",
+              "widget": "object",
+              "fields": [
+                {
+                  "label": "Inicio",
+                  "name": "inicio",
+                  "widget": "object",
+                  "collapsed": true,
+                  "fields": [
+                    {
+                      "label": "Imágenes",
+                      "name": "imagenes",
+                      "widget": "object",
+                      "collapsed": true,
+                      "fields": [
+                        {
+                          "label": "Imagen · Fotografía histórica de la Casa del Brigadier hacia mediados del ",
+                          "name": "imagen_1",
+                          "widget": "object",
+                          "collapsed": true,
+                          "fields": [
+                            {
+                              "label": "Imagen",
+                              "name": "archivo",
+                              "widget": "image",
+                              "required": true
+                            },
+                            {
+                              "label": "Descripción accesible",
+                              "name": "alternativo",
+                              "widget": "string",
+                              "required": false
+                            },
+                            {
+                              "label": "Epígrafe / descripción al ampliar",
+                              "name": "epigrafe",
+                              "widget": "text",
+                              "required": false
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Textos",
+                      "name": "textos",
+                      "widget": "object",
+                      "collapsed": true,
+                      "fields": [
+                        {
+                          "label": "Texto del enlace · Inicio",
+                          "name": "boton_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Etiqueta · Historia",
+                          "name": "etiqueta_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · CASA DEL BRIGADIER ESTANISLAO LÓPEZ",
+                          "name": "parrafo_1",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · Una casa.",
+                          "name": "titulo_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · Más de dos siglos",
+                          "name": "titulo_2",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · de",
+                          "name": "titulo_3",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · historia.",
+                          "name": "titulo_4",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · Detrás de la fachada hay vida cotidiana, encuentros políticos ",
+                          "name": "parrafo_2",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Texto del enlace · Empezá a descubrir",
+                          "name": "boton_2",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Etiqueta · Ampliar imagen",
+                          "name": "etiqueta_2",
+                          "widget": "string",
+                          "required": false
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Los orígenes",
+                  "name": "origenes",
+                  "widget": "object",
+                  "collapsed": true,
+                  "fields": [
+                    {
+                      "label": "Imágenes",
+                      "name": "imagenes",
+                      "widget": "object",
+                      "collapsed": true,
+                      "fields": [
+                        {
+                          "label": "Imagen · Pintura vinculada a la Orden de los Mercedarios",
+                          "name": "imagen_1",
+                          "widget": "object",
+                          "collapsed": true,
+                          "fields": [
+                            {
+                              "label": "Imagen",
+                              "name": "archivo",
+                              "widget": "image",
+                              "required": true
+                            },
+                            {
+                              "label": "Descripción accesible",
+                              "name": "alternativo",
+                              "widget": "string",
+                              "required": false
+                            },
+                            {
+                              "label": "Epígrafe / descripción al ampliar",
+                              "name": "epigrafe",
+                              "widget": "text",
+                              "required": false
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Textos",
+                      "name": "textos",
+                      "widget": "object",
+                      "collapsed": true,
+                      "fields": [
+                        {
+                          "label": "Párrafo · 01 / LOS ORÍGENES",
+                          "name": "parrafo_1",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · De un solar mercedario",
+                          "name": "titulo_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · a una",
+                          "name": "titulo_2",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · casa familiar.",
+                          "name": "titulo_3",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · Antes de ser una vivienda, el terreno formó parte de una manza",
+                          "name": "parrafo_2",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · En 1812, Manuel Rodríguez, protomédico de Santa Fe, adquirió e",
+                          "name": "parrafo_3",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Título desplegable · Cómo se lee la historia del terreno",
+                          "name": "desplegable_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · La investigación del edificio reúne documentos y evidencias ma",
+                          "name": "parrafo_4",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Etiqueta · Ampliar",
+                          "name": "etiqueta_1",
+                          "widget": "string",
+                          "required": false
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "La familia López",
+                  "name": "familia",
+                  "widget": "object",
+                  "collapsed": true,
+                  "fields": [
+                    {
+                      "label": "Imágenes",
+                      "name": "imagenes",
+                      "widget": "object",
+                      "collapsed": true,
+                      "fields": [
+                        {
+                          "label": "Imagen · Retrato de Josefa Rodríguez del Fresno",
+                          "name": "imagen_1",
+                          "widget": "object",
+                          "collapsed": true,
+                          "fields": [
+                            {
+                              "label": "Imagen",
+                              "name": "archivo",
+                              "widget": "image",
+                              "required": true
+                            },
+                            {
+                              "label": "Descripción accesible",
+                              "name": "alternativo",
+                              "widget": "string",
+                              "required": false
+                            },
+                            {
+                              "label": "Epígrafe / descripción al ampliar",
+                              "name": "epigrafe",
+                              "widget": "text",
+                              "required": false
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Textos",
+                      "name": "textos",
+                      "widget": "object",
+                      "collapsed": true,
+                      "fields": [
+                        {
+                          "label": "Párrafo · 02 / JOSEFA Y ESTANISLAO",
+                          "name": "parrafo_1",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · Un hogar entre la vida",
+                          "name": "titulo_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · familiar y la",
+                          "name": "titulo_2",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · política.",
+                          "name": "titulo_3",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · En 1819, el matrimonio de Josefa Rodríguez del Fresno con Esta",
+                          "name": "parrafo_2",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · Fue un hogar y también un espacio de la vida pública. Allí se ",
+                          "name": "parrafo_3",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Título desplegable · Josefa y la memoria familiar",
+                          "name": "desplegable_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · La historia de la casa también se cuenta a través de las perso",
+                          "name": "parrafo_4",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Etiqueta · Ampliar",
+                          "name": "etiqueta_1",
+                          "widget": "string",
+                          "required": false
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Transformaciones",
+                  "name": "transformaciones",
+                  "widget": "object",
+                  "collapsed": true,
+                  "fields": [
+                    {
+                      "label": "Imágenes",
+                      "name": "imagenes",
+                      "widget": "object",
+                      "collapsed": true,
+                      "fields": [
+                        {
+                          "label": "Imagen · Muro de tapia conservado en el museo",
+                          "name": "imagen_1",
+                          "widget": "object",
+                          "collapsed": true,
+                          "fields": [
+                            {
+                              "label": "Imagen",
+                              "name": "archivo",
+                              "widget": "image",
+                              "required": true
+                            },
+                            {
+                              "label": "Descripción accesible",
+                              "name": "alternativo",
+                              "widget": "string",
+                              "required": false
+                            },
+                            {
+                              "label": "Epígrafe / descripción al ampliar",
+                              "name": "epigrafe",
+                              "widget": "text",
+                              "required": false
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Textos",
+                      "name": "textos",
+                      "widget": "object",
+                      "collapsed": true,
+                      "fields": [
+                        {
+                          "label": "Párrafo · 03 / LA ARQUITECTURA",
+                          "name": "parrafo_1",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · Una casa que cambia.",
+                          "name": "titulo_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · Una memoria que",
+                          "name": "titulo_2",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · permanece.",
+                          "name": "titulo_3",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · En 1872, los herederos de López vendieron la propiedad a Danie",
+                          "name": "parrafo_2",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · La imagen actual no corresponde por completo a la vivienda de ",
+                          "name": "parrafo_3",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Título desplegable · Tapia, adobe y ladrillo",
+                          "name": "desplegable_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · Son materiales y técnicas que forman parte de la evolución del",
+                          "name": "parrafo_4",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Etiqueta · Ampliar",
+                          "name": "etiqueta_1",
+                          "widget": "string",
+                          "required": false
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Recuperación",
+                  "name": "recuperacion",
+                  "widget": "object",
+                  "collapsed": true,
+                  "fields": [
+                    {
+                      "label": "Imágenes",
+                      "name": "imagenes",
+                      "widget": "object",
+                      "collapsed": true,
+                      "fields": [
+                        {
+                          "label": "Imagen · Fotografía del derrumbe que afectó a la casa en 2017",
+                          "name": "imagen_1",
+                          "widget": "object",
+                          "collapsed": true,
+                          "fields": [
+                            {
+                              "label": "Imagen",
+                              "name": "archivo",
+                              "widget": "image",
+                              "required": true
+                            },
+                            {
+                              "label": "Descripción accesible",
+                              "name": "alternativo",
+                              "widget": "string",
+                              "required": false
+                            },
+                            {
+                              "label": "Epígrafe / descripción al ampliar",
+                              "name": "epigrafe",
+                              "widget": "text",
+                              "required": false
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Textos",
+                      "name": "textos",
+                      "widget": "object",
+                      "collapsed": true,
+                      "fields": [
+                        {
+                          "label": "Párrafo · 04 / RECUPERACIÓN PATRIMONIAL",
+                          "name": "parrafo_1",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · Recuperar la casa.",
+                          "name": "titulo_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · Compartir su",
+                          "name": "titulo_2",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · historia.",
+                          "name": "titulo_3",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · En 1942, la casa fue declarada Monumento Histórico Nacional. D",
+                          "name": "parrafo_2",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · Las obras desarrolladas entre 2019 y 2021 recuperaron fachadas",
+                          "name": "parrafo_3",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Título desplegable · La arqueología durante la restauración",
+                          "name": "desplegable_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · Las intervenciones del equipo del Museo Etnográfico y Colonial",
+                          "name": "parrafo_4",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Etiqueta · Ampliar",
+                          "name": "etiqueta_1",
+                          "widget": "string",
+                          "required": false
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "pie",
+                  "name": "pie",
+                  "widget": "object",
+                  "collapsed": true,
+                  "fields": [
+                    {
+                      "label": "Destinos de enlaces",
+                      "name": "enlaces",
+                      "widget": "object",
+                      "collapsed": true,
+                      "fields": [
+                        {
+                          "label": "Destino · https://www.santafeciudad.gov.ar/capitalcultural/huellas-de-mi-ci",
+                          "name": "enlace_1",
+                          "widget": "string",
+                          "required": true
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Navegación interna",
+                  "name": "navegacion",
+                  "widget": "object",
+                  "collapsed": true,
+                  "fields": [
+                    {
+                      "label": "Textos",
+                      "name": "textos",
+                      "widget": "object",
+                      "collapsed": true,
+                      "fields": [
+                        {
+                          "label": "Texto del enlace · Saltar al contenido",
+                          "name": "boton_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Etiqueta · EN ESTA PÁGINA",
+                          "name": "etiqueta_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Texto del enlace · Los orígenes",
+                          "name": "boton_2",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Texto del enlace · La familia López",
+                          "name": "boton_3",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Texto del enlace · Transformaciones",
+                          "name": "boton_4",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Texto del enlace · Recuperación",
+                          "name": "boton_5",
+                          "widget": "string",
+                          "required": false
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Seguí el recorrido",
+                  "name": "continuar",
+                  "widget": "object",
+                  "collapsed": true,
+                  "fields": [
+                    {
+                      "label": "Textos",
+                      "name": "textos",
+                      "widget": "object",
+                      "collapsed": true,
+                      "fields": [
+                        {
+                          "label": "Párrafo · SEGUÍ EL RECORRIDO",
+                          "name": "parrafo_1",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · Ahora, mirá la casa",
+                          "name": "titulo_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · con",
+                          "name": "titulo_2",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · otros ojos.",
+                          "name": "titulo_3",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · Encontrá las huellas de esta historia en sus patios, sus salas",
+                          "name": "parrafo_2",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Texto del enlace · Conocé los espacios",
+                          "name": "boton_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Texto del enlace · Explorá el patrimonio",
+                          "name": "boton_2",
+                          "widget": "string",
+                          "required": false
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Conocé la casa",
+          "name": "casa",
+          "file": "content/pages/casa.json",
+          "fields": [
+            {
+              "label": "Buscadores y redes",
+              "name": "seo",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "label": "Descripción",
+                  "name": "descripcion",
+                  "widget": "text",
+                  "required": false
+                },
+                {
+                  "label": "Título en redes",
+                  "name": "titulo_social",
+                  "widget": "text",
+                  "required": false
+                },
+                {
+                  "label": "Descripción en redes",
+                  "name": "descripcion_social",
+                  "widget": "text",
+                  "required": false
+                },
+                {
+                  "label": "Título de la pestaña",
+                  "name": "titulo",
+                  "widget": "text",
+                  "required": false
+                }
+              ]
+            },
+            {
+              "label": "Secciones de la página",
+              "name": "secciones",
+              "widget": "object",
+              "fields": [
+                {
+                  "label": "Inicio",
+                  "name": "inicio",
+                  "widget": "object",
+                  "collapsed": true,
+                  "fields": [
+                    {
+                      "label": "Imágenes",
+                      "name": "imagenes",
+                      "widget": "object",
+                      "collapsed": true,
+                      "fields": [
+                        {
+                          "label": "Imagen · Patio del Aljibe de la Casa del Brigadier",
+                          "name": "imagen_1",
+                          "widget": "object",
+                          "collapsed": true,
+                          "fields": [
+                            {
+                              "label": "Imagen",
+                              "name": "archivo",
+                              "widget": "image",
+                              "required": true
+                            },
+                            {
+                              "label": "Descripción accesible",
+                              "name": "alternativo",
+                              "widget": "string",
+                              "required": false
+                            },
+                            {
+                              "label": "Epígrafe / descripción al ampliar",
+                              "name": "epigrafe",
+                              "widget": "text",
+                              "required": false
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Textos",
+                      "name": "textos",
+                      "widget": "object",
+                      "collapsed": true,
+                      "fields": [
+                        {
+                          "label": "Texto del enlace · Inicio",
+                          "name": "boton_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Etiqueta · La casa",
+                          "name": "etiqueta_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · CASA DEL BRIGADIER ESTANISLAO LÓPEZ",
+                          "name": "parrafo_1",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · Espacios que",
+                          "name": "titulo_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · guardan",
+                          "name": "titulo_2",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · memoria.",
+                          "name": "titulo_3",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · Patios, habitaciones y salas de exposición. Recorré la antigua",
+                          "name": "parrafo_2",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Texto del enlace · Empezá a descubrir",
+                          "name": "boton_2",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Etiqueta · Ampliar imagen",
+                          "name": "etiqueta_2",
+                          "widget": "string",
+                          "required": false
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Los patios",
+                  "name": "patios",
+                  "widget": "object",
+                  "collapsed": true,
+                  "fields": [
+                    {
+                      "label": "Imágenes",
+                      "name": "imagenes",
+                      "widget": "object",
+                      "collapsed": true,
+                      "fields": [
+                        {
+                          "label": "Imagen · Patio de las Visitas",
+                          "name": "imagen_1",
+                          "widget": "object",
+                          "collapsed": true,
+                          "fields": [
+                            {
+                              "label": "Imagen",
+                              "name": "archivo",
+                              "widget": "image",
+                              "required": true
+                            },
+                            {
+                              "label": "Descripción accesible",
+                              "name": "alternativo",
+                              "widget": "string",
+                              "required": false
+                            },
+                            {
+                              "label": "Epígrafe / descripción al ampliar",
+                              "name": "epigrafe",
+                              "widget": "text",
+                              "required": false
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Textos",
+                      "name": "textos",
+                      "widget": "object",
+                      "collapsed": true,
+                      "fields": [
+                        {
+                          "label": "Párrafo · 01 / PATIOS Y ARQUITECTURA",
+                          "name": "parrafo_1",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · Los patios, el corazón",
+                          "name": "titulo_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · de la",
+                          "name": "titulo_2",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · casa.",
+                          "name": "titulo_3",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · Los patios conectan los ambientes y permiten comprender la org",
+                          "name": "parrafo_2",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · En el Patio del Aljibe, la galería dedicada a la evolución arq",
+                          "name": "parrafo_3",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Título desplegable · Qué observar durante el recorrido",
+                          "name": "desplegable_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · Mirá los accesos, la relación entre los patios y las habitacio",
+                          "name": "parrafo_4",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Etiqueta · Ampliar",
+                          "name": "etiqueta_1",
+                          "widget": "string",
+                          "required": false
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Sus habitantes",
+                  "name": "habitantes",
+                  "widget": "object",
+                  "collapsed": true,
+                  "fields": [
+                    {
+                      "label": "Imágenes",
+                      "name": "imagenes",
+                      "widget": "object",
+                      "collapsed": true,
+                      "fields": [
+                        {
+                          "label": "Imagen · Espacio de exposición sobre la vida familiar y las memorias de la",
+                          "name": "imagen_1",
+                          "widget": "object",
+                          "collapsed": true,
+                          "fields": [
+                            {
+                              "label": "Imagen",
+                              "name": "archivo",
+                              "widget": "image",
+                              "required": true
+                            },
+                            {
+                              "label": "Descripción accesible",
+                              "name": "alternativo",
+                              "widget": "string",
+                              "required": false
+                            },
+                            {
+                              "label": "Epígrafe / descripción al ampliar",
+                              "name": "epigrafe",
+                              "widget": "text",
+                              "required": false
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Textos",
+                      "name": "textos",
+                      "widget": "object",
+                      "collapsed": true,
+                      "fields": [
+                        {
+                          "label": "Párrafo · 02 / VIDA FAMILIAR Y MEMORIAS",
+                          "name": "parrafo_1",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · Las habitaciones también",
+                          "name": "titulo_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · hablan de sus",
+                          "name": "titulo_2",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · habitantes.",
+                          "name": "titulo_3",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · Los retratos, recuerdos y documentos permiten acercarse al con",
+                          "name": "parrafo_2",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · «Habitantes de la casa», «Memorias guardadas» y el sector dedi",
+                          "name": "parrafo_3",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Título desplegable · Objetos para contar una vida",
+                          "name": "desplegable_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · Una pieza puede ayudar a conectar una persona con su época. Es",
+                          "name": "parrafo_4",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Etiqueta · Ampliar",
+                          "name": "etiqueta_1",
+                          "widget": "string",
+                          "required": false
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Sala de excavación",
+                  "name": "excavacion",
+                  "widget": "object",
+                  "collapsed": true,
+                  "fields": [
+                    {
+                      "label": "Imágenes",
+                      "name": "imagenes",
+                      "widget": "object",
+                      "collapsed": true,
+                      "fields": [
+                        {
+                          "label": "Imagen · Sala de Excavación con sectores arqueológicos visibles",
+                          "name": "imagen_1",
+                          "widget": "object",
+                          "collapsed": true,
+                          "fields": [
+                            {
+                              "label": "Imagen",
+                              "name": "archivo",
+                              "widget": "image",
+                              "required": true
+                            },
+                            {
+                              "label": "Descripción accesible",
+                              "name": "alternativo",
+                              "widget": "string",
+                              "required": false
+                            },
+                            {
+                              "label": "Epígrafe / descripción al ampliar",
+                              "name": "epigrafe",
+                              "widget": "text",
+                              "required": false
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Textos",
+                      "name": "textos",
+                      "widget": "object",
+                      "collapsed": true,
+                      "fields": [
+                        {
+                          "label": "Párrafo · 03 / SALA DE EXCAVACIÓN",
+                          "name": "parrafo_1",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · La historia que estaba",
+                          "name": "titulo_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · bajo nuestros",
+                          "name": "titulo_2",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · pies.",
+                          "name": "titulo_3",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · Durante la restauración, especialistas del Museo Etnográfico y",
+                          "name": "parrafo_2",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · La Sala de Excavación presenta parte de ese trabajo. Los secto",
+                          "name": "parrafo_3",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Título desplegable · Cómo se construye el conocimiento arqueológico",
+                          "name": "desplegable_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · El trabajo arqueológico estudia tanto los materiales como el l",
+                          "name": "parrafo_4",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Etiqueta · Ampliar",
+                          "name": "etiqueta_1",
+                          "widget": "string",
+                          "required": false
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Exposiciones",
+                  "name": "exposiciones",
+                  "widget": "object",
+                  "collapsed": true,
+                  "fields": [
+                    {
+                      "label": "Imágenes",
+                      "name": "imagenes",
+                      "widget": "object",
+                      "collapsed": true,
+                      "fields": [
+                        {
+                          "label": "Imagen · Obras y materiales en una sala de exposición del museo",
+                          "name": "imagen_1",
+                          "widget": "object",
+                          "collapsed": true,
+                          "fields": [
+                            {
+                              "label": "Imagen",
+                              "name": "archivo",
+                              "widget": "image",
+                              "required": true
+                            },
+                            {
+                              "label": "Descripción accesible",
+                              "name": "alternativo",
+                              "widget": "string",
+                              "required": false
+                            },
+                            {
+                              "label": "Epígrafe / descripción al ampliar",
+                              "name": "epigrafe",
+                              "widget": "text",
+                              "required": false
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Textos",
+                      "name": "textos",
+                      "widget": "object",
+                      "collapsed": true,
+                      "fields": [
+                        {
+                          "label": "Párrafo · 04 / ARTE Y EXPOSICIONES",
+                          "name": "parrafo_1",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · Nuevas miradas",
+                          "name": "titulo_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · sobre una",
+                          "name": "titulo_2",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · historia compartida.",
+                          "name": "titulo_3",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · En «Los retratos del Brigadier», distintas representaciones de",
+                          "name": "parrafo_2",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · La Sala de Muestras abre lugar a exposiciones temporales y pro",
+                          "name": "parrafo_3",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Título desplegable · Antes de venir",
+                          "name": "desplegable_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · Las exhibiciones temporales y las actividades pueden cambiar. ",
+                          "name": "parrafo_4",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Etiqueta · Ampliar",
+                          "name": "etiqueta_1",
+                          "widget": "string",
+                          "required": false
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "pie",
+                  "name": "pie",
+                  "widget": "object",
+                  "collapsed": true,
+                  "fields": [
+                    {
+                      "label": "Destinos de enlaces",
+                      "name": "enlaces",
+                      "widget": "object",
+                      "collapsed": true,
+                      "fields": [
+                        {
+                          "label": "Destino · https://www.santafeciudad.gov.ar/capitalcultural/huellas-de-mi-ci",
+                          "name": "enlace_1",
+                          "widget": "string",
+                          "required": true
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Navegación interna",
+                  "name": "navegacion",
+                  "widget": "object",
+                  "collapsed": true,
+                  "fields": [
+                    {
+                      "label": "Textos",
+                      "name": "textos",
+                      "widget": "object",
+                      "collapsed": true,
+                      "fields": [
+                        {
+                          "label": "Texto del enlace · Saltar al contenido",
+                          "name": "boton_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Etiqueta · EN ESTA PÁGINA",
+                          "name": "etiqueta_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Texto del enlace · Los patios",
+                          "name": "boton_2",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Texto del enlace · Sus habitantes",
+                          "name": "boton_3",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Texto del enlace · La excavación",
+                          "name": "boton_4",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Texto del enlace · Exposiciones",
+                          "name": "boton_5",
+                          "widget": "string",
+                          "required": false
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Seguí el recorrido",
+                  "name": "continuar",
+                  "widget": "object",
+                  "collapsed": true,
+                  "fields": [
+                    {
+                      "label": "Textos",
+                      "name": "textos",
+                      "widget": "object",
+                      "collapsed": true,
+                      "fields": [
+                        {
+                          "label": "Párrafo · SEGUÍ EL RECORRIDO",
+                          "name": "parrafo_1",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · La próxima parte del",
+                          "name": "titulo_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · recorrido es",
+                          "name": "titulo_2",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · en persona.",
+                          "name": "titulo_3",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · Consultá los horarios o seguí explorando las piezas que acompa",
+                          "name": "parrafo_2",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Texto del enlace · Planificá tu visita",
+                          "name": "boton_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Texto del enlace · Conocé las piezas",
+                          "name": "boton_2",
+                          "widget": "string",
+                          "required": false
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Patrimonio",
+          "name": "patrimonio",
+          "file": "content/pages/patrimonio.json",
+          "fields": [
+            {
+              "label": "Buscadores y redes",
+              "name": "seo",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "label": "Descripción",
+                  "name": "descripcion",
+                  "widget": "text",
+                  "required": false
+                },
+                {
+                  "label": "Título en redes",
+                  "name": "titulo_social",
+                  "widget": "text",
+                  "required": false
+                },
+                {
+                  "label": "Descripción en redes",
+                  "name": "descripcion_social",
+                  "widget": "text",
+                  "required": false
+                },
+                {
+                  "label": "Título de la pestaña",
+                  "name": "titulo",
+                  "widget": "text",
+                  "required": false
+                }
+              ]
+            },
+            {
+              "label": "Secciones de la página",
+              "name": "secciones",
+              "widget": "object",
+              "fields": [
+                {
+                  "label": "Inicio",
+                  "name": "inicio",
+                  "widget": "object",
+                  "collapsed": true,
+                  "fields": [
+                    {
+                      "label": "Imágenes",
+                      "name": "imagenes",
+                      "widget": "object",
+                      "collapsed": true,
+                      "fields": [
+                        {
+                          "label": "Imagen · Bastón y pintura exhibidos en el museo",
+                          "name": "imagen_1",
+                          "widget": "object",
+                          "collapsed": true,
+                          "fields": [
+                            {
+                              "label": "Imagen",
+                              "name": "archivo",
+                              "widget": "image",
+                              "required": true
+                            },
+                            {
+                              "label": "Descripción accesible",
+                              "name": "alternativo",
+                              "widget": "string",
+                              "required": false
+                            },
+                            {
+                              "label": "Epígrafe / descripción al ampliar",
+                              "name": "epigrafe",
+                              "widget": "text",
+                              "required": false
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Textos",
+                      "name": "textos",
+                      "widget": "object",
+                      "collapsed": true,
+                      "fields": [
+                        {
+                          "label": "Texto del enlace · Inicio",
+                          "name": "boton_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Etiqueta · Patrimonio",
+                          "name": "etiqueta_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · CASA DEL BRIGADIER ESTANISLAO LÓPEZ",
+                          "name": "parrafo_1",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · Objetos que cuentan",
+                          "name": "titulo_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · nuestra",
+                          "name": "titulo_2",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · historia.",
+                          "name": "titulo_3",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · Retratos, esculturas, documentos y objetos nos acercan a los h",
+                          "name": "parrafo_2",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Texto del enlace · Empezá a descubrir",
+                          "name": "boton_2",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Etiqueta · Ampliar imagen",
+                          "name": "etiqueta_2",
+                          "widget": "string",
+                          "required": false
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Arte y retratos",
+                  "name": "representaciones",
+                  "widget": "object",
+                  "collapsed": true,
+                  "fields": [
+                    {
+                      "label": "Imágenes",
+                      "name": "imagenes",
+                      "widget": "object",
+                      "collapsed": true,
+                      "fields": [
+                        {
+                          "label": "Imagen · Pintura del Brigadier Estanislao López a caballo",
+                          "name": "imagen_1",
+                          "widget": "object",
+                          "collapsed": true,
+                          "fields": [
+                            {
+                              "label": "Imagen",
+                              "name": "archivo",
+                              "widget": "image",
+                              "required": true
+                            },
+                            {
+                              "label": "Descripción accesible",
+                              "name": "alternativo",
+                              "widget": "string",
+                              "required": false
+                            },
+                            {
+                              "label": "Epígrafe / descripción al ampliar",
+                              "name": "epigrafe",
+                              "widget": "text",
+                              "required": false
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Textos",
+                      "name": "textos",
+                      "widget": "object",
+                      "collapsed": true,
+                      "fields": [
+                        {
+                          "label": "Párrafo · 01 / ARTE Y REPRESENTACIONES",
+                          "name": "parrafo_1",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · Un rostro.",
+                          "name": "titulo_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · Muchas",
+                          "name": "titulo_2",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · miradas.",
+                          "name": "titulo_3",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · Pinturas, retratos y bustos muestran distintas representacione",
+                          "name": "parrafo_2",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · Las obras y reproducciones, acompañadas por recursos explicati",
+                          "name": "parrafo_3",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Título desplegable · Una invitación a observar",
+                          "name": "desplegable_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · Detenete en la postura, la vestimenta y el entorno de cada ret",
+                          "name": "parrafo_4",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Etiqueta · Ampliar",
+                          "name": "etiqueta_1",
+                          "widget": "string",
+                          "required": false
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Documentos",
+                  "name": "documentos",
+                  "widget": "object",
+                  "collapsed": true,
+                  "fields": [
+                    {
+                      "label": "Imágenes",
+                      "name": "imagenes",
+                      "widget": "object",
+                      "collapsed": true,
+                      "fields": [
+                        {
+                          "label": "Imagen · Retrato de Josefa acompañado por documentos expuestos",
+                          "name": "imagen_1",
+                          "widget": "object",
+                          "collapsed": true,
+                          "fields": [
+                            {
+                              "label": "Imagen",
+                              "name": "archivo",
+                              "widget": "image",
+                              "required": true
+                            },
+                            {
+                              "label": "Descripción accesible",
+                              "name": "alternativo",
+                              "widget": "string",
+                              "required": false
+                            },
+                            {
+                              "label": "Epígrafe / descripción al ampliar",
+                              "name": "epigrafe",
+                              "widget": "text",
+                              "required": false
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Textos",
+                      "name": "textos",
+                      "widget": "object",
+                      "collapsed": true,
+                      "fields": [
+                        {
+                          "label": "Párrafo · 02 / MEMORIA ESCRITA",
+                          "name": "parrafo_1",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · Historias que también",
+                          "name": "titulo_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · se leen en",
+                          "name": "titulo_2",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · papel.",
+                          "name": "titulo_3",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · Libros, impresos y reproducciones documentales acompañan las s",
+                          "name": "parrafo_2",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · Entre los materiales presentados en el recorrido hay documento",
+                          "name": "parrafo_3",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Título desplegable · Lo que aporta un documento",
+                          "name": "desplegable_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · Los materiales escritos ayudan a relacionar nombres, acontecim",
+                          "name": "parrafo_4",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Etiqueta · Ampliar",
+                          "name": "etiqueta_1",
+                          "widget": "string",
+                          "required": false
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Indumentaria y objetos",
+                  "name": "objetos",
+                  "widget": "object",
+                  "collapsed": true,
+                  "fields": [
+                    {
+                      "label": "Imágenes",
+                      "name": "imagenes",
+                      "widget": "object",
+                      "collapsed": true,
+                      "fields": [
+                        {
+                          "label": "Imagen · Réplicas de la indumentaria de Josefa y Estanislao",
+                          "name": "imagen_1",
+                          "widget": "object",
+                          "collapsed": true,
+                          "fields": [
+                            {
+                              "label": "Imagen",
+                              "name": "archivo",
+                              "widget": "image",
+                              "required": true
+                            },
+                            {
+                              "label": "Descripción accesible",
+                              "name": "alternativo",
+                              "widget": "string",
+                              "required": false
+                            },
+                            {
+                              "label": "Epígrafe / descripción al ampliar",
+                              "name": "epigrafe",
+                              "widget": "text",
+                              "required": false
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Textos",
+                      "name": "textos",
+                      "widget": "object",
+                      "collapsed": true,
+                      "fields": [
+                        {
+                          "label": "Párrafo · 03 / INDUMENTARIA Y OBJETOS",
+                          "name": "parrafo_1",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · Acercarse a una época",
+                          "name": "titulo_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · a través de sus",
+                          "name": "titulo_2",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · detalles.",
+                          "name": "titulo_3",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · La muestra «Josefa y Estanislao» incluye réplicas de la indume",
+                          "name": "parrafo_2",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · El sector dedicado al bastón del Brigadier presenta una recrea",
+                          "name": "parrafo_3",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Título desplegable · Originales, réplicas y recreaciones",
+                          "name": "desplegable_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · Una réplica o recreación es un recurso para explicar y acercar",
+                          "name": "parrafo_4",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Etiqueta · Ampliar",
+                          "name": "etiqueta_1",
+                          "widget": "string",
+                          "required": false
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Arqueología",
+                  "name": "arqueologia",
+                  "widget": "object",
+                  "collapsed": true,
+                  "fields": [
+                    {
+                      "label": "Imágenes",
+                      "name": "imagenes",
+                      "widget": "object",
+                      "collapsed": true,
+                      "fields": [
+                        {
+                          "label": "Imagen · Panel interpretativo sobre el trabajo arqueológico en la casa",
+                          "name": "imagen_1",
+                          "widget": "object",
+                          "collapsed": true,
+                          "fields": [
+                            {
+                              "label": "Imagen",
+                              "name": "archivo",
+                              "widget": "image",
+                              "required": true
+                            },
+                            {
+                              "label": "Descripción accesible",
+                              "name": "alternativo",
+                              "widget": "string",
+                              "required": false
+                            },
+                            {
+                              "label": "Epígrafe / descripción al ampliar",
+                              "name": "epigrafe",
+                              "widget": "text",
+                              "required": false
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Textos",
+                      "name": "textos",
+                      "widget": "object",
+                      "collapsed": true,
+                      "fields": [
+                        {
+                          "label": "Párrafo · 04 / PATRIMONIO ARQUEOLÓGICO",
+                          "name": "parrafo_1",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · Pequeñas huellas.",
+                          "name": "titulo_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · Grandes",
+                          "name": "titulo_2",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · preguntas.",
+                          "name": "titulo_3",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · Las investigaciones realizadas durante la recuperación del edi",
+                          "name": "parrafo_2",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · La Sala de Excavación presenta el trabajo del equipo de Arqueo",
+                          "name": "parrafo_3",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Título desplegable · El valor del contexto",
+                          "name": "desplegable_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · Un fragmento aporta información por su material y sus caracter",
+                          "name": "parrafo_4",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Etiqueta · Ampliar",
+                          "name": "etiqueta_1",
+                          "widget": "string",
+                          "required": false
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Navegación interna",
+                  "name": "navegacion",
+                  "widget": "object",
+                  "collapsed": true,
+                  "fields": [
+                    {
+                      "label": "Imágenes",
+                      "name": "imagenes",
+                      "widget": "object",
+                      "collapsed": true,
+                      "fields": [
+                        {
+                          "label": "Imagen · Busto de piedra de Estanislao López",
+                          "name": "imagen_1",
+                          "widget": "object",
+                          "collapsed": true,
+                          "fields": [
+                            {
+                              "label": "Imagen",
+                              "name": "archivo",
+                              "widget": "image",
+                              "required": true
+                            },
+                            {
+                              "label": "Descripción accesible",
+                              "name": "alternativo",
+                              "widget": "string",
+                              "required": false
+                            },
+                            {
+                              "label": "Epígrafe / descripción al ampliar",
+                              "name": "epigrafe",
+                              "widget": "text",
+                              "required": false
+                            }
+                          ]
+                        },
+                        {
+                          "label": "Imagen · Reconocimiento exhibido en una vitrina del museo",
+                          "name": "imagen_2",
+                          "widget": "object",
+                          "collapsed": true,
+                          "fields": [
+                            {
+                              "label": "Imagen",
+                              "name": "archivo",
+                              "widget": "image",
+                              "required": true
+                            },
+                            {
+                              "label": "Descripción accesible",
+                              "name": "alternativo",
+                              "widget": "string",
+                              "required": false
+                            },
+                            {
+                              "label": "Epígrafe / descripción al ampliar",
+                              "name": "epigrafe",
+                              "widget": "text",
+                              "required": false
+                            }
+                          ]
+                        },
+                        {
+                          "label": "Imagen · Publicaciones históricas expuestas en una vitrina",
+                          "name": "imagen_3",
+                          "widget": "object",
+                          "collapsed": true,
+                          "fields": [
+                            {
+                              "label": "Imagen",
+                              "name": "archivo",
+                              "widget": "image",
+                              "required": true
+                            },
+                            {
+                              "label": "Descripción accesible",
+                              "name": "alternativo",
+                              "widget": "string",
+                              "required": false
+                            },
+                            {
+                              "label": "Epígrafe / descripción al ampliar",
+                              "name": "epigrafe",
+                              "widget": "text",
+                              "required": false
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Textos",
+                      "name": "textos",
+                      "widget": "object",
+                      "collapsed": true,
+                      "fields": [
+                        {
+                          "label": "Texto del enlace · Saltar al contenido",
+                          "name": "boton_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Etiqueta · EN ESTA PÁGINA",
+                          "name": "etiqueta_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Texto del enlace · Arte y retratos",
+                          "name": "boton_2",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Texto del enlace · Documentos",
+                          "name": "boton_3",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Texto del enlace · Indumentaria y objetos",
+                          "name": "boton_4",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Texto del enlace · Arqueología",
+                          "name": "boton_5",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · DETENETE EN LOS DETALLES",
+                          "name": "parrafo_1",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · Otra forma de",
+                          "name": "titulo_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · mirar.",
+                          "name": "titulo_2",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Etiqueta · Ampliar",
+                          "name": "etiqueta_2",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Etiqueta · Ampliar",
+                          "name": "etiqueta_3",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Etiqueta · Ampliar",
+                          "name": "etiqueta_4",
+                          "widget": "string",
+                          "required": false
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "pie",
+                  "name": "pie",
+                  "widget": "object",
+                  "collapsed": true,
+                  "fields": [
+                    {
+                      "label": "Destinos de enlaces",
+                      "name": "enlaces",
+                      "widget": "object",
+                      "collapsed": true,
+                      "fields": [
+                        {
+                          "label": "Destino · https://www.santafeciudad.gov.ar/capitalcultural/huellas-de-mi-ci",
+                          "name": "enlace_1",
+                          "widget": "string",
+                          "required": true
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Seguí el recorrido",
+                  "name": "continuar",
+                  "widget": "object",
+                  "collapsed": true,
+                  "fields": [
+                    {
+                      "label": "Textos",
+                      "name": "textos",
+                      "widget": "object",
+                      "collapsed": true,
+                      "fields": [
+                        {
+                          "label": "Párrafo · SEGUÍ EL RECORRIDO",
+                          "name": "parrafo_1",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · El patrimonio se descubre",
+                          "name": "titulo_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · con",
+                          "name": "titulo_2",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · tiempo y curiosidad.",
+                          "name": "titulo_3",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · Esta es una selección del recorrido. Las exposiciones temporal",
+                          "name": "parrafo_2",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Texto del enlace · Organizá tu visita",
+                          "name": "boton_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Texto del enlace · Recorré los espacios",
+                          "name": "boton_2",
+                          "widget": "string",
+                          "required": false
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Visita",
+          "name": "visita",
+          "file": "content/pages/visita.json",
+          "fields": [
+            {
+              "label": "Buscadores y redes",
+              "name": "seo",
+              "widget": "object",
+              "collapsed": true,
+              "fields": [
+                {
+                  "label": "Descripción",
+                  "name": "descripcion",
+                  "widget": "text",
+                  "required": false
+                },
+                {
+                  "label": "Título en redes",
+                  "name": "titulo_social",
+                  "widget": "text",
+                  "required": false
+                },
+                {
+                  "label": "Descripción en redes",
+                  "name": "descripcion_social",
+                  "widget": "text",
+                  "required": false
+                },
+                {
+                  "label": "Título de la pestaña",
+                  "name": "titulo",
+                  "widget": "text",
+                  "required": false
+                }
+              ]
+            },
+            {
+              "label": "Secciones de la página",
+              "name": "secciones",
+              "widget": "object",
+              "fields": [
+                {
+                  "label": "Inicio",
+                  "name": "inicio",
+                  "widget": "object",
+                  "collapsed": true,
+                  "fields": [
+                    {
+                      "label": "Imágenes",
+                      "name": "imagenes",
+                      "widget": "object",
+                      "collapsed": true,
+                      "fields": [
+                        {
+                          "label": "Imagen · Fachada de la Casa del Brigadier Estanislao López",
+                          "name": "imagen_1",
+                          "widget": "object",
+                          "collapsed": true,
+                          "fields": [
+                            {
+                              "label": "Imagen",
+                              "name": "archivo",
+                              "widget": "image",
+                              "required": true
+                            },
+                            {
+                              "label": "Descripción accesible",
+                              "name": "alternativo",
+                              "widget": "string",
+                              "required": false
+                            },
+                            {
+                              "label": "Epígrafe / descripción al ampliar",
+                              "name": "epigrafe",
+                              "widget": "text",
+                              "required": false
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Textos",
+                      "name": "textos",
+                      "widget": "object",
+                      "collapsed": true,
+                      "fields": [
+                        {
+                          "label": "Texto del enlace · Inicio",
+                          "name": "boton_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Etiqueta · Visita",
+                          "name": "etiqueta_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · CASA DEL BRIGADIER ESTANISLAO LÓPEZ",
+                          "name": "parrafo_1",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · La historia",
+                          "name": "titulo_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · te",
+                          "name": "titulo_2",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · espera.",
+                          "name": "titulo_3",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · Planificá tu visita a la Casa del Brigadier. Encontrá los hora",
+                          "name": "parrafo_2",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Texto del enlace · Empezá a descubrir",
+                          "name": "boton_2",
+                          "widget": "string",
+                          "required": false
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Horarios",
+                  "name": "horarios",
+                  "widget": "object",
+                  "collapsed": true,
+                  "fields": [
+                    {
+                      "label": "Destinos de enlaces",
+                      "name": "enlaces",
+                      "widget": "object",
+                      "collapsed": true,
+                      "fields": [
+                        {
+                          "label": "Destino · https://www.santafecultura.gob.ar/espacio/museo-y-centro-de-inter",
+                          "name": "enlace_1",
+                          "widget": "string",
+                          "required": true
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Textos",
+                      "name": "textos",
+                      "widget": "object",
+                      "collapsed": true,
+                      "fields": [
+                        {
+                          "label": "Párrafo · 01 / DÍAS Y HORARIOS",
+                          "name": "parrafo_1",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · Elegí tu momento",
+                          "name": "titulo_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · para",
+                          "name": "titulo_2",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · venir.",
+                          "name": "titulo_3",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · La casa abre durante la semana y los fines de semana. Estos so",
+                          "name": "parrafo_2",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Etiqueta · Martes",
+                          "name": "etiqueta_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Etiqueta · 9 a 15 h",
+                          "name": "etiqueta_2",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Etiqueta · Miércoles a viernes",
+                          "name": "etiqueta_3",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Etiqueta · 9 a 18 h",
+                          "name": "etiqueta_4",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Etiqueta · Sábados y domingos",
+                          "name": "etiqueta_5",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Etiqueta · 16 a 19 h",
+                          "name": "etiqueta_6",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · Para feriados, actividades especiales o cambios de temporada, ",
+                          "name": "parrafo_3",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Texto del enlace · Consultá la ficha de Santa Fe Cultura",
+                          "name": "boton_1",
+                          "widget": "string",
+                          "required": false
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Ubicación",
+                  "name": "ubicacion",
+                  "widget": "object",
+                  "collapsed": true,
+                  "fields": [
+                    {
+                      "label": "Destinos de enlaces",
+                      "name": "enlaces",
+                      "widget": "object",
+                      "collapsed": true,
+                      "fields": [
+                        {
+                          "label": "Destino · https://www.google.com/maps/search/?api=1&query=Casa+del+Brigadie",
+                          "name": "enlace_1",
+                          "widget": "string",
+                          "required": true
+                        },
+                        {
+                          "label": "Destino · https://maps.google.com/maps?q=Casa%20del%20Brigadier%20Estanisla",
+                          "name": "enlace_2",
+                          "widget": "string",
+                          "required": true
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Textos",
+                      "name": "textos",
+                      "widget": "object",
+                      "collapsed": true,
+                      "fields": [
+                        {
+                          "label": "Párrafo · 02 / UBICACIÓN",
+                          "name": "parrafo_1",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · Una esquina.",
+                          "name": "titulo_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · Todo un",
+                          "name": "titulo_2",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · encuentro.",
+                          "name": "titulo_3",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Dirección · Av. Gral. López 2792",
+                          "name": "direccion_1",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Dirección · Santa Fe de la Vera Cruz, Argentina",
+                          "name": "direccion_2",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · En la esquina de General López y 9 de Julio, en el casco histó",
+                          "name": "parrafo_2",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Texto del enlace · Cómo llegar",
+                          "name": "boton_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Etiqueta · SANTA FE · BARRIO SUR",
+                          "name": "etiqueta_1",
+                          "widget": "string",
+                          "required": false
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Consultas y grupos",
+                  "name": "contacto",
+                  "widget": "object",
+                  "collapsed": true,
+                  "fields": [
+                    {
+                      "label": "Destinos de enlaces",
+                      "name": "enlaces",
+                      "widget": "object",
+                      "collapsed": true,
+                      "fields": [
+                        {
+                          "label": "Destino · mailto:casabrigadier.sf@gmail.com?subject=Consulta%20por%20visita",
+                          "name": "enlace_1",
+                          "widget": "string",
+                          "required": true
+                        },
+                        {
+                          "label": "Destino · tel:+543424835396",
+                          "name": "enlace_2",
+                          "widget": "string",
+                          "required": true
+                        },
+                        {
+                          "label": "Destino · mailto:casabrigadier.sf@gmail.com",
+                          "name": "enlace_3",
+                          "widget": "string",
+                          "required": true
+                        },
+                        {
+                          "label": "Destino · https://www.instagram.com/casadelbrigadier/",
+                          "name": "enlace_4",
+                          "widget": "string",
+                          "required": true
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Textos",
+                      "name": "textos",
+                      "widget": "object",
+                      "collapsed": true,
+                      "fields": [
+                        {
+                          "label": "Párrafo · 03 / CONSULTAS Y GRUPOS",
+                          "name": "parrafo_1",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · Un recorrido para",
+                          "name": "titulo_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · compartir.",
+                          "name": "titulo_2",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · Si querés organizar una visita con tu escuela o un grupo, cont",
+                          "name": "parrafo_2",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Texto del enlace · Consultá por una visita",
+                          "name": "boton_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Nota · TELÉFONO",
+                          "name": "nota_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Texto del enlace · 0342 483-5396",
+                          "name": "boton_2",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Nota · CORREO ELECTRÓNICO",
+                          "name": "nota_2",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Texto del enlace · casabrigadier.sf@gmail.com",
+                          "name": "boton_3",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Nota · INSTAGRAM",
+                          "name": "nota_3",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Texto del enlace · @casadelbrigadier",
+                          "name": "boton_4",
+                          "widget": "string",
+                          "required": false
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Preguntas",
+                  "name": "preguntas",
+                  "widget": "object",
+                  "collapsed": true,
+                  "fields": [
+                    {
+                      "label": "Destinos de enlaces",
+                      "name": "enlaces",
+                      "widget": "object",
+                      "collapsed": true,
+                      "fields": [
+                        {
+                          "label": "Destino · mailto:casabrigadier.sf@gmail.com?subject=Consulta%20por%20visita",
+                          "name": "enlace_1",
+                          "widget": "string",
+                          "required": true
+                        },
+                        {
+                          "label": "Destino · tel:+543424835396",
+                          "name": "enlace_2",
+                          "widget": "string",
+                          "required": true
+                        }
+                      ]
+                    },
+                    {
+                      "label": "Textos",
+                      "name": "textos",
+                      "widget": "object",
+                      "collapsed": true,
+                      "fields": [
+                        {
+                          "label": "Párrafo · 04 / ANTES DE VENIR",
+                          "name": "parrafo_1",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · Algunas",
+                          "name": "titulo_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · preguntas.",
+                          "name": "titulo_2",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título desplegable · ¿Cómo coordino una visita escolar?",
+                          "name": "desplegable_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · Comunicate por teléfono o correo con el museo. Podés indicar e",
+                          "name": "parrafo_2",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Texto del enlace · Contactá al museo",
+                          "name": "boton_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título desplegable · ¿Qué puedo conocer durante el recorrido?",
+                          "name": "desplegable_2",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · Los patios y ambientes de la casa, las salas dedicadas a sus h",
+                          "name": "parrafo_3",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Texto del enlace · Explorá los espacios",
+                          "name": "boton_2",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título desplegable · ¿Los horarios cambian en feriados?",
+                          "name": "desplegable_3",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · Los horarios de referencia no garantizan la apertura durante f",
+                          "name": "parrafo_4",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Título desplegable · ¿Dónde consulto sobre accesibilidad?",
+                          "name": "desplegable_4",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · Para conocer las condiciones de acceso y circulación, o consul",
+                          "name": "parrafo_5",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Texto del enlace · Llamá al 0342 483-5396",
+                          "name": "boton_3",
+                          "widget": "string",
+                          "required": false
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "pie",
+                  "name": "pie",
+                  "widget": "object",
+                  "collapsed": true,
+                  "fields": [
+                    {
+                      "label": "Destinos de enlaces",
+                      "name": "enlaces",
+                      "widget": "object",
+                      "collapsed": true,
+                      "fields": [
+                        {
+                          "label": "Destino · https://www.santafeciudad.gov.ar/capitalcultural/huellas-de-mi-ci",
+                          "name": "enlace_1",
+                          "widget": "string",
+                          "required": true
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Navegación interna",
+                  "name": "navegacion",
+                  "widget": "object",
+                  "collapsed": true,
+                  "fields": [
+                    {
+                      "label": "Textos",
+                      "name": "textos",
+                      "widget": "object",
+                      "collapsed": true,
+                      "fields": [
+                        {
+                          "label": "Texto del enlace · Saltar al contenido",
+                          "name": "boton_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Etiqueta · EN ESTA PÁGINA",
+                          "name": "etiqueta_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Texto del enlace · Horarios",
+                          "name": "boton_2",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Texto del enlace · Cómo llegar",
+                          "name": "boton_3",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Texto del enlace · Consultas y grupos",
+                          "name": "boton_4",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Texto del enlace · Preguntas",
+                          "name": "boton_5",
+                          "widget": "string",
+                          "required": false
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "label": "Seguí el recorrido",
+                  "name": "continuar",
+                  "widget": "object",
+                  "collapsed": true,
+                  "fields": [
+                    {
+                      "label": "Textos",
+                      "name": "textos",
+                      "widget": "object",
+                      "collapsed": true,
+                      "fields": [
+                        {
+                          "label": "Párrafo · SEGUÍ EL RECORRIDO",
+                          "name": "parrafo_1",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · Conocé un poco más",
+                          "name": "titulo_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · antes de",
+                          "name": "titulo_2",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Título · venir.",
+                          "name": "titulo_3",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Párrafo · Descubrí los ambientes y las piezas que te esperan en el recor",
+                          "name": "parrafo_2",
+                          "widget": "text",
+                          "required": false
+                        },
+                        {
+                          "label": "Texto del enlace · Conocé la casa",
+                          "name": "boton_1",
+                          "widget": "string",
+                          "required": false
+                        },
+                        {
+                          "label": "Texto del enlace · Explorá el patrimonio",
+                          "name": "boton_2",
+                          "widget": "string",
+                          "required": false
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "general",
+      "label": "Encabezado y pie",
+      "format": "json",
+      "files": [
+        {
+          "name": "general",
+          "label": "Textos compartidos",
+          "file": "content/site.json",
+          "fields": [
+            {
+              "name": "cabecera",
+              "label": "Encabezado",
+              "widget": "object",
+              "fields": [
+                {
+                  "label": "Texto del enlace · Casa del Brigadier",
+                  "name": "texto_1",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "label": "Nota · Estanislao López",
+                  "name": "texto_2",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "label": "Texto del enlace · Inicio",
+                  "name": "texto_3",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "label": "Texto del enlace · Historia",
+                  "name": "texto_4",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "label": "Texto del enlace · La casa",
+                  "name": "texto_5",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "label": "Texto del enlace · Patrimonio",
+                  "name": "texto_6",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "label": "Texto del enlace · Planificá tu visita",
+                  "name": "texto_7",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "label": "Etiqueta · Menú",
+                  "name": "texto_8",
+                  "widget": "string",
+                  "required": false
+                }
+              ]
+            },
+            {
+              "name": "pie",
+              "label": "Pie de página",
+              "widget": "object",
+              "fields": [
+                {
+                  "label": "Texto del enlace · Casa del Brigadier",
+                  "name": "texto_1",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "label": "Texto del enlace · Estanislao López.",
+                  "name": "texto_2",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "label": "Texto del enlace · Volver al inicio",
+                  "name": "texto_3",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "label": "Texto del enlace · Inicio",
+                  "name": "texto_4",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "label": "Texto del enlace · Historia",
+                  "name": "texto_5",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "label": "Texto del enlace · La casa",
+                  "name": "texto_6",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "label": "Texto del enlace · Patrimonio",
+                  "name": "texto_7",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "label": "Texto del enlace · Visita",
+                  "name": "texto_8",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "label": "Etiqueta · SANTA FE · ARGENTINA",
+                  "name": "texto_9",
+                  "widget": "string",
+                  "required": false
+                },
+                {
+                  "label": "Texto del enlace · Conocé nuestro patrimonio",
+                  "name": "texto_10",
+                  "widget": "string",
+                  "required": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

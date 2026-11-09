@@ -1,0 +1,137 @@
+{
+  "seo": {
+    "descripcion": "Detrás de la fachada hay vida cotidiana, encuentros políticos y transformaciones arquitectónicas. Un recorrido por el origen de la casa, la familia López y su recuperación patrimonial.",
+    "titulo_social": "Historia · Casa del Brigadier",
+    "descripcion_social": "Casa del Brigadier Estanislao López · Santa Fe",
+    "titulo": "Historia · Casa del Brigadier Estanislao López"
+  },
+  "secciones": {
+    "inicio": {
+      "imagenes": {
+        "imagen_1": {
+          "archivo": "/assets/historia-1.jpg",
+          "alternativo": "Fotografía histórica de la Casa del Brigadier hacia mediados del siglo XX",
+          "epigrafe": ""
+        }
+      },
+      "textos": {
+        "boton_1": "Inicio",
+        "etiqueta_1": "Historia",
+        "parrafo_1": "CASA DEL BRIGADIER ESTANISLAO LÓPEZ",
+        "titulo_1": "Una casa.",
+        "titulo_2": "Más de dos siglos",
+        "titulo_3": "de ",
+        "titulo_4": "historia.",
+        "parrafo_2": "Detrás de la fachada hay vida cotidiana, encuentros políticos y transformaciones arquitectónicas. Un recorrido por el origen de la casa, la familia López y su recuperación patrimonial.",
+        "boton_2": "Empezá a descubrir ",
+        "etiqueta_2": "Ampliar imagen "
+      }
+    },
+    "origenes": {
+      "imagenes": {
+        "imagen_1": {
+          "archivo": "/assets/historia-2.jpg",
+          "alternativo": "Pintura vinculada a la Orden de los Mercedarios",
+          "epigrafe": "La presencia mercedaria forma parte de la historia temprana del solar."
+        }
+      },
+      "textos": {
+        "parrafo_1": "01 / LOS ORÍGENES",
+        "titulo_1": "De un solar mercedario",
+        "titulo_2": "a una ",
+        "titulo_3": "casa familiar.",
+        "parrafo_2": "Antes de ser una vivienda, el terreno formó parte de una manzana vinculada a la Orden de la Merced. Las huellas de esa ocupación permiten mirar más atrás que la propia casa del siglo XIX.",
+        "parrafo_3": "En 1812, Manuel Rodríguez, protomédico de Santa Fe, adquirió el solar y construyó una vivienda de adobe. Ese núcleo doméstico dio origen a la casa que, años después, quedaría ligada a Estanislao López.",
+        "desplegable_1": "Cómo se lee la historia del terreno",
+        "parrafo_4": "La investigación del edificio reúne documentos y evidencias materiales. Los muros conservados y los hallazgos arqueológicos ayudan a reconocer las distintas ocupaciones del lugar y a comprender que su historia comenzó antes de la residencia de los López.",
+        "etiqueta_1": "Ampliar "
+      }
+    },
+    "familia": {
+      "imagenes": {
+        "imagen_1": {
+          "archivo": "/assets/historia-3.jpg",
+          "alternativo": "Retrato de Josefa Rodríguez del Fresno",
+          "epigrafe": "Josefa Rodríguez del Fresno, protagonista de la historia familiar de la casa."
+        }
+      },
+      "textos": {
+        "parrafo_1": "02 / JOSEFA Y ESTANISLAO",
+        "titulo_1": "Un hogar entre la vida",
+        "titulo_2": "familiar y la ",
+        "titulo_3": "política.",
+        "parrafo_2": "En 1819, el matrimonio de Josefa Rodríguez del Fresno con Estanislao López vinculó la casa con el entonces gobernador de Santa Fe. López la habitó hasta su fallecimiento, en 1838.",
+        "parrafo_3": "Fue un hogar y también un espacio de la vida pública. Allí se celebraron encuentros con dirigentes federales. La historia de la vivienda reúne, así, experiencias familiares y acontecimientos políticos.",
+        "desplegable_1": "Josefa y la memoria familiar",
+        "parrafo_4": "La historia de la casa también se cuenta a través de las personas que la habitaron. Los retratos, la documentación familiar y las réplicas de indumentaria de la muestra «Josefa y Estanislao» acercan el recorrido a la vida cotidiana, más allá de los hechos de gobierno.",
+        "etiqueta_1": "Ampliar "
+      }
+    },
+    "transformaciones": {
+      "imagenes": {
+        "imagen_1": {
+          "archivo": "/assets/historia-4.jpg",
+          "alternativo": "Muro de tapia conservado en el museo",
+          "epigrafe": "El muro de tapia permite reconocer técnicas constructivas presentes en el edificio."
+        }
+      },
+      "textos": {
+        "parrafo_1": "03 / LA ARQUITECTURA",
+        "titulo_1": "Una casa que cambia.",
+        "titulo_2": "Una memoria que ",
+        "titulo_3": "permanece.",
+        "parrafo_2": "En 1872, los herederos de López vendieron la propiedad a Daniel de la Torre. Las ampliaciones y reformas posteriores incorporaron nuevos materiales, la ochava y una fachada de impronta italianizante.",
+        "parrafo_3": "La imagen actual no corresponde por completo a la vivienda de 1812. En sus muros y ambientes conviven técnicas, usos y decisiones de diferentes épocas: capas de una historia que todavía puede leerse.",
+        "desplegable_1": "Tapia, adobe y ladrillo",
+        "parrafo_4": "Son materiales y técnicas que forman parte de la evolución del inmueble. Los sectores conservados y los recursos interpretativos del museo permiten observar sus diferencias y relacionarlos con las sucesivas transformaciones de la vivienda.",
+        "etiqueta_1": "Ampliar "
+      }
+    },
+    "recuperacion": {
+      "imagenes": {
+        "imagen_1": {
+          "archivo": "/assets/historia-5.jpg",
+          "alternativo": "Fotografía del derrumbe que afectó a la casa en 2017",
+          "epigrafe": "El colapso de 2017 marcó el comienzo de una nueva etapa de recuperación."
+        }
+      },
+      "textos": {
+        "parrafo_1": "04 / RECUPERACIÓN PATRIMONIAL",
+        "titulo_1": "Recuperar la casa.",
+        "titulo_2": "Compartir su ",
+        "titulo_3": "historia.",
+        "parrafo_2": "En 1942, la casa fue declarada Monumento Histórico Nacional. Desde 1946 y hasta 2017 fue sede del Archivo Histórico provincial. En enero de 2017, el colapso de un muro de adobe hizo necesaria una intervención integral.",
+        "parrafo_3": "Las obras desarrolladas entre 2019 y 2021 recuperaron fachadas, patios y ambientes. En 2021, la casa abrió como Museo y Centro de Interpretación Cultural: una nueva etapa para acercar su patrimonio a la comunidad.",
+        "desplegable_1": "La arqueología durante la restauración",
+        "parrafo_4": "Las intervenciones del equipo del Museo Etnográfico y Colonial Juan de Garay permitieron estudiar contextos anteriores a la vivienda. La recuperación del edificio también fue una oportunidad para investigar sus materiales y conocer mejor las distintas etapas de ocupación.",
+        "etiqueta_1": "Ampliar "
+      }
+    },
+    "pie": {
+      "enlaces": {
+        "enlace_1": "https://www.santafeciudad.gov.ar/capitalcultural/huellas-de-mi-ciudad/patrimonio-publico/arquitectonico/casa-del-brigadier-estanislao-lopez/"
+      }
+    },
+    "navegacion": {
+      "textos": {
+        "boton_1": "Saltar al contenido",
+        "etiqueta_1": "EN ESTA PÁGINA",
+        "boton_2": "Los orígenes",
+        "boton_3": "La familia López",
+        "boton_4": "Transformaciones",
+        "boton_5": "Recuperación"
+      }
+    },
+    "continuar": {
+      "textos": {
+        "parrafo_1": "SEGUÍ EL RECORRIDO",
+        "titulo_1": "Ahora, mirá la casa",
+        "titulo_2": "con ",
+        "titulo_3": "otros ojos.",
+        "parrafo_2": "Encontrá las huellas de esta historia en sus patios, sus salas y las piezas que acompañan el recorrido.",
+        "boton_1": "Conocé los espacios",
+        "boton_2": "Explorá el patrimonio"
+      }
+    }
+  }
+}

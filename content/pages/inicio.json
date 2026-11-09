@@ -1,0 +1,223 @@
+{
+  "seo": {
+    "descripcion": "Explorá la historia, los patios y el patrimonio de la Casa del Brigadier Estanislao López. Planificá tu visita en el casco histórico de Santa Fe.",
+    "titulo_social": "Casa del Brigadier Estanislao López",
+    "descripcion_social": "Casa del Brigadier Estanislao López · Santa Fe",
+    "titulo": "Casa del Brigadier Estanislao López · Santa Fe"
+  },
+  "secciones": {
+    "inicio": {
+      "imagenes": {
+        "imagen_1": {
+          "archivo": "/assets/fachada.png",
+          "alternativo": "Fachada de la Casa del Brigadier Estanislao López, con sus balcones de hierro y su acceso en la esquina",
+          "epigrafe": ""
+        }
+      },
+      "textos": {
+        "titulo_1": "Casa del",
+        "titulo_2": "Brigadier",
+        "titulo_3": "Estanislao López.",
+        "parrafo_1": "Un encuentro con la arquitectura, la memoria y el patrimonio que mantienen viva la historia de Santa Fe.",
+        "boton_1": "Comenzá el recorrido ",
+        "boton_2": "Vení a",
+        "boton_3": "conocerla ",
+        "boton_4": "Deslizá para descubrir "
+      }
+    },
+    "casa": {
+      "imagenes": {
+        "imagen_1": {
+          "archivo": "/assets/patio.jpg",
+          "alternativo": "Patio de las visitas de la Casa del Brigadier",
+          "epigrafe": "Patio de las visitas · Un espacio de encuentro y circulación."
+        },
+        "imagen_2": {
+          "archivo": "/assets/ingreso.jpg",
+          "alternativo": "Arco del ingreso interior con reja de hierro forjado",
+          "epigrafe": "Ingreso y arquitectura · Un arco, una reja, otra forma de mirar."
+        },
+        "imagen_3": {
+          "archivo": "/assets/muro.jpg",
+          "alternativo": "Línea histórica de la evolución arquitectónica de la casa presentada en el museo",
+          "epigrafe": "La casa a través del tiempo · Una línea histórica de su evolución arquitectónica."
+        }
+      },
+      "textos": {
+        "parrafo_1": "02 / LA CASA",
+        "etiqueta_1": "UN RECORRIDO POR SU ARQUITECTURA",
+        "titulo_1": "Espacios con ",
+        "titulo_2": "memoria.",
+        "parrafo_2": "Patios, puertas y detalles que nos invitan a mirar de cerca. Descubrí las distintas capas de una casa en transformación.",
+        "etiqueta_2": "Ampliar ",
+        "epigrafe_1": "01",
+        "titulo_3": "El patio de las visitas",
+        "parrafo_3": "Un espacio de encuentro y circulación.",
+        "etiqueta_3": "Ampliar ",
+        "epigrafe_2": "02",
+        "titulo_4": "El arte de los detalles",
+        "parrafo_4": "El ingreso y su arquitectura.",
+        "etiqueta_4": "Ampliar ",
+        "epigrafe_3": "03",
+        "titulo_5": "La casa a través del tiempo",
+        "parrafo_5": "Una línea histórica de su evolución arquitectónica.",
+        "boton_1": "Recorré todos los espacios "
+      }
+    },
+    "patrimonio": {
+      "imagenes": {
+        "imagen_1": {
+          "archivo": "/assets/busto.jpg",
+          "alternativo": "Busto de piedra con la inscripción Brigadier Estanislao López",
+          "epigrafe": "Bustos · Representaciones del Brigadier Estanislao López."
+        },
+        "imagen_2": {
+          "archivo": "/assets/pintura.jpg",
+          "alternativo": "Pintura histórica de Estanislao López montado a caballo",
+          "epigrafe": "Cuadros y pinturas · El Brigadier representado a caballo."
+        },
+        "imagen_3": {
+          "archivo": "/assets/publicaciones.jpg",
+          "alternativo": "Publicaciones históricas exhibidas en una vitrina de madera",
+          "epigrafe": "Publicaciones históricas · Documentos expuestos durante el recorrido."
+        }
+      },
+      "textos": {
+        "parrafo_1": "03 / PATRIMONIO",
+        "etiqueta_1": "OBJETOS QUE NOS CUENTAN",
+        "titulo_1": "Miradas que",
+        "titulo_2": "atraviesan el ",
+        "titulo_3": "tiempo.",
+        "parrafo_2": "Retratos, esculturas y documentos. Distintas formas de acercarnos al Brigadier y a la memoria de nuestra provincia.",
+        "etiqueta_2": "SELECCIONÁ UNA IMAGEN PARA EXPLORARLA ",
+        "etiqueta_3": "Ver pieza ",
+        "titulo_4": "El rostro de la historia",
+        "epigrafe_1": "BUSTOS Y ESCULTURAS",
+        "etiqueta_4": "Ver pieza ",
+        "titulo_5": "Retratar una época",
+        "epigrafe_2": "CUADROS Y PINTURAS",
+        "etiqueta_5": "Ver pieza ",
+        "titulo_6": "La memoria escrita",
+        "epigrafe_3": "DOCUMENTOS Y PUBLICACIONES",
+        "boton_1": "Explorá el patrimonio en exhibición "
+      }
+    },
+    "actividades": {
+      "imagenes": {
+        "imagen_1": {
+          "archivo": "/assets/guiadas.jpg",
+          "alternativo": "Guía del museo compartiendo historias con un grupo de niñas y niños",
+          "epigrafe": ""
+        },
+        "imagen_2": {
+          "archivo": "/assets/educativas.jpg",
+          "alternativo": "Niñas y niños dibujando y coloreando láminas de la casa",
+          "epigrafe": ""
+        },
+        "imagen_3": {
+          "archivo": "/assets/escolares.jpg",
+          "alternativo": "Grupo de estudiantes recorriendo una sala de exposición",
+          "epigrafe": ""
+        }
+      },
+      "textos": {
+        "parrafo_1": "04 / ENCUENTROS",
+        "etiqueta_1": "EL PATRIMONIO SE COMPARTE",
+        "titulo_1": "La casa está ",
+        "titulo_2": "viva.",
+        "parrafo_2": "La historia también sucede hoy. Recorridos y propuestas educativas para encontrarnos, preguntar y descubrir.",
+        "etiqueta_2": "01",
+        "titulo_3": "Visitas guiadas",
+        "parrafo_3": "Cada recorrido es una conversación con el pasado. Conocé la casa a través de sus espacios, sus objetos y las historias que los conectan.",
+        "etiqueta_3": "02",
+        "titulo_4": "Propuestas educativas",
+        "parrafo_4": "Observar, dibujar y aprender: distintas maneras de acercarse al patrimonio y construir nuevas miradas sobre la historia de Santa Fe.",
+        "etiqueta_4": "03",
+        "titulo_5": "Recorridos escolares",
+        "parrafo_5": "Una experiencia para descubrir en grupo. Si sos docente, contactá al museo para consultar disponibilidad y coordinar la visita de tu escuela."
+      }
+    },
+    "visita": {
+      "enlaces": {
+        "enlace_1": "https://www.google.com/maps/search/?api=1&query=Casa+del+Brigadier+Estanislao+Lopez+General+Lopez+2792+Santa+Fe",
+        "enlace_2": "mailto:casabrigadier.sf@gmail.com",
+        "enlace_3": "tel:+543424835396",
+        "enlace_4": "https://www.instagram.com/casadelbrigadier/"
+      },
+      "textos": {
+        "parrafo_1": "05 / TU PRÓXIMA VISITA",
+        "etiqueta_1": "EN EL CORAZÓN DEL BARRIO SUR",
+        "titulo_1": "Las puertas",
+        "titulo_2": "están ",
+        "titulo_3": "abiertas.",
+        "parrafo_2": "Acercate a descubrir una casa que sigue contando la historia de Santa Fe.",
+        "boton_1": "Cómo llegar ",
+        "etiqueta_2": "ENCONTRANOS EN",
+        "parrafo_3": "Av. Gral. López 2792",
+        "parrafo_4": "Santa Fe de la Vera Cruz, Argentina",
+        "nota_1": "Esquina 9 de Julio y General López.",
+        "titulo_4": "Elegí tu momento",
+        "dia_1": "Martes",
+        "horario_1": "9 a 15 h",
+        "dia_2": "Miércoles a viernes",
+        "horario_2": "9 a 18 h",
+        "dia_3": "Sábados y domingos",
+        "horario_3": "16 a 19 h",
+        "parrafo_5": "Para feriados y visitas grupales, consultá previamente con el museo.",
+        "titulo_5": "Conversemos",
+        "boton_2": "casabrigadier.sf@gmail.com ",
+        "boton_3": "0342 483-5396 ",
+        "boton_4": "@casadelbrigadier ",
+        "boton_5": "Toda la información para tu visita "
+      }
+    },
+    "pie": {
+      "enlaces": {
+        "enlace_1": "https://www.santafeciudad.gov.ar/capitalcultural/huellas-de-mi-ciudad/patrimonio-publico/arquitectonico/casa-del-brigadier-estanislao-lopez/"
+      }
+    },
+    "navegacion": {
+      "textos": {
+        "boton_1": "Saltar al contenido"
+      }
+    },
+    "historia": {
+      "textos": {
+        "parrafo_1": "01 / NUESTRA HISTORIA",
+        "etiqueta_1": "EL TIEMPO DEJA SUS HUELLAS",
+        "titulo_1": "La historia vive",
+        "titulo_2": "entre estos ",
+        "titulo_3": "muros.",
+        "parrafo_2": "Una vivienda, un lugar de encuentro, un archivo y un museo. Cada etapa dejó una huella en esta casa del casco histórico santafesino.",
+        "boton_1": "Conocé toda la historia "
+      }
+    }
+  },
+  "cronologia": [
+    {
+      "anio": "1812",
+      "titulo": "El comienzo de una casa",
+      "texto": "Manuel Rodríguez adquiere el terreno, que había pertenecido a la orden mercedaria, y construye la vivienda que hoy conocemos como la Casa del Brigadier."
+    },
+    {
+      "anio": "1819",
+      "titulo": "Una casa, una vida compartida",
+      "texto": "Estanislao López se casa con Josefa Rodríguez y comienza a habitar la casa. Fue su residencia hasta su fallecimiento, en 1838, y escenario de encuentros con otros dirigentes federales."
+    },
+    {
+      "anio": "1872",
+      "titulo": "Una nueva imagen para la esquina",
+      "texto": "Los herederos de López venden la propiedad a Daniel de la Torre. Las transformaciones posteriores incorporan la ochava y renuevan la fachada con la impronta que caracteriza al edificio."
+    },
+    {
+      "anio": "1942",
+      "titulo": "Un patrimonio de todos",
+      "texto": "La casa es declarada Monumento Histórico Nacional. Desde 1946 y hasta 2017 alojó al Archivo Histórico de la provincia de Santa Fe."
+    },
+    {
+      "anio": "2021",
+      "titulo": "La casa vuelve a abrirse",
+      "texto": "Tras el colapso de un muro en 2017 y las obras de recuperación, la casa abre sus puertas como Museo y Centro de Interpretación Cultural: una nueva etapa para compartir su historia."
+    }
+  ]
+}

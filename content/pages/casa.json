@@ -1,0 +1,136 @@
+{
+  "seo": {
+    "descripcion": "Patios, habitaciones y salas de exposición. Recorré la antigua vivienda y descubrí cómo su arquitectura nos acerca a quienes la habitaron.",
+    "titulo_social": "La casa · Casa del Brigadier",
+    "descripcion_social": "Casa del Brigadier Estanislao López · Santa Fe",
+    "titulo": "La casa · Casa del Brigadier Estanislao López"
+  },
+  "secciones": {
+    "inicio": {
+      "imagenes": {
+        "imagen_1": {
+          "archivo": "/assets/casa-1.webp",
+          "alternativo": "Patio del Aljibe de la Casa del Brigadier",
+          "epigrafe": ""
+        }
+      },
+      "textos": {
+        "boton_1": "Inicio",
+        "etiqueta_1": "La casa",
+        "parrafo_1": "CASA DEL BRIGADIER ESTANISLAO LÓPEZ",
+        "titulo_1": "Espacios que",
+        "titulo_2": "guardan ",
+        "titulo_3": "memoria.",
+        "parrafo_2": "Patios, habitaciones y salas de exposición. Recorré la antigua vivienda y descubrí cómo su arquitectura nos acerca a quienes la habitaron.",
+        "boton_2": "Empezá a descubrir ",
+        "etiqueta_2": "Ampliar imagen "
+      }
+    },
+    "patios": {
+      "imagenes": {
+        "imagen_1": {
+          "archivo": "/assets/casa-2.webp",
+          "alternativo": "Patio de las Visitas",
+          "epigrafe": "Patio de las Visitas · Un espacio para recibir, circular y encontrarse."
+        }
+      },
+      "textos": {
+        "parrafo_1": "01 / PATIOS Y ARQUITECTURA",
+        "titulo_1": "Los patios, el corazón",
+        "titulo_2": "de la ",
+        "titulo_3": "casa.",
+        "parrafo_2": "Los patios conectan los ambientes y permiten comprender la organización de la vivienda. El Patio de las Visitas es un espacio de recepción y circulación que relaciona los accesos con las habitaciones.",
+        "parrafo_3": "En el Patio del Aljibe, la galería dedicada a la evolución arquitectónica invita a reconocer cómo la casa incorporó nuevos materiales y soluciones constructivas a lo largo del tiempo.",
+        "desplegable_1": "Qué observar durante el recorrido",
+        "parrafo_4": "Mirá los accesos, la relación entre los patios y las habitaciones y los detalles de las aberturas. La distribución y los materiales muestran distintas etapas del edificio: la casa actual reúne cambios que se sucedieron durante más de dos siglos.",
+        "etiqueta_1": "Ampliar "
+      }
+    },
+    "habitantes": {
+      "imagenes": {
+        "imagen_1": {
+          "archivo": "/assets/casa-3.webp",
+          "alternativo": "Espacio de exposición sobre la vida familiar y las memorias de la casa",
+          "epigrafe": "Las memorias familiares también forman parte del patrimonio."
+        }
+      },
+      "textos": {
+        "parrafo_1": "02 / VIDA FAMILIAR Y MEMORIAS",
+        "titulo_1": "Las habitaciones también",
+        "titulo_2": "hablan de sus ",
+        "titulo_3": "habitantes.",
+        "parrafo_2": "Los retratos, recuerdos y documentos permiten acercarse al contexto familiar de Estanislao López y a las personas que habitaron esta casa.",
+        "parrafo_3": "«Habitantes de la casa», «Memorias guardadas» y el sector dedicado al bastón del Brigadier son algunos de los espacios que acercan la historia familiar al recorrido. En este último se exhibe una recreación del bastón, junto con otras piezas vinculadas a su figura.",
+        "desplegable_1": "Objetos para contar una vida",
+        "parrafo_4": "Una pieza puede ayudar a conectar una persona con su época. Es importante distinguir entre objetos históricos, reproducciones y recreaciones: cada uno cumple una función diferente en la interpretación del museo.",
+        "etiqueta_1": "Ampliar "
+      }
+    },
+    "excavacion": {
+      "imagenes": {
+        "imagen_1": {
+          "archivo": "/assets/casa-4.webp",
+          "alternativo": "Sala de Excavación con sectores arqueológicos visibles",
+          "epigrafe": "Sala de Excavación · Investigar el pasado a partir de sus huellas."
+        }
+      },
+      "textos": {
+        "parrafo_1": "03 / SALA DE EXCAVACIÓN",
+        "titulo_1": "La historia que estaba",
+        "titulo_2": "bajo nuestros ",
+        "titulo_3": "pies.",
+        "parrafo_2": "Durante la restauración, especialistas del Museo Etnográfico y Colonial Juan de Garay realizaron investigaciones arqueológicas. Los hallazgos permitieron reconocer materiales y contextos anteriores a la vivienda del siglo XIX.",
+        "parrafo_3": "La Sala de Excavación presenta parte de ese trabajo. Los sectores visibles bajo superficies de vidrio y los recursos explicativos muestran cómo las huellas materiales aportan al conocimiento del pasado.",
+        "desplegable_1": "Cómo se construye el conocimiento arqueológico",
+        "parrafo_4": "El trabajo arqueológico estudia tanto los materiales como el lugar y las condiciones en que se encuentran. Relacionar esos datos con la arquitectura permite interpretar cambios en la construcción y en los usos de los espacios.",
+        "etiqueta_1": "Ampliar "
+      }
+    },
+    "exposiciones": {
+      "imagenes": {
+        "imagen_1": {
+          "archivo": "/assets/casa-5.jpg",
+          "alternativo": "Obras y materiales en una sala de exposición del museo",
+          "epigrafe": "Retratos y exposiciones para volver a mirar la historia."
+        }
+      },
+      "textos": {
+        "parrafo_1": "04 / ARTE Y EXPOSICIONES",
+        "titulo_1": "Nuevas miradas",
+        "titulo_2": "sobre una ",
+        "titulo_3": "historia compartida.",
+        "parrafo_2": "En «Los retratos del Brigadier», distintas representaciones de Estanislao López invitan a observar cómo se construyó su imagen a través del tiempo.",
+        "parrafo_3": "La Sala de Muestras abre lugar a exposiciones temporales y propuestas culturales. La casa combina así la memoria de sus habitantes con nuevas formas de acercarse al patrimonio santafesino.",
+        "desplegable_1": "Antes de venir",
+        "parrafo_4": "Las exhibiciones temporales y las actividades pueden cambiar. Consultá los canales del museo para conocer las propuestas vigentes y coordinar recorridos con escuelas o grupos.",
+        "etiqueta_1": "Ampliar "
+      }
+    },
+    "pie": {
+      "enlaces": {
+        "enlace_1": "https://www.santafeciudad.gov.ar/capitalcultural/huellas-de-mi-ciudad/patrimonio-publico/arquitectonico/casa-del-brigadier-estanislao-lopez/"
+      }
+    },
+    "navegacion": {
+      "textos": {
+        "boton_1": "Saltar al contenido",
+        "etiqueta_1": "EN ESTA PÁGINA",
+        "boton_2": "Los patios",
+        "boton_3": "Sus habitantes",
+        "boton_4": "La excavación",
+        "boton_5": "Exposiciones"
+      }
+    },
+    "continuar": {
+      "textos": {
+        "parrafo_1": "SEGUÍ EL RECORRIDO",
+        "titulo_1": "La próxima parte del",
+        "titulo_2": "recorrido es ",
+        "titulo_3": "en persona.",
+        "parrafo_2": "Consultá los horarios o seguí explorando las piezas que acompañan los ambientes de la casa.",
+        "boton_1": "Planificá tu visita",
+        "boton_2": "Conocé las piezas"
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+/* Native transitions between the five static pages; normal links remain the fallback. */
+@view-transition{navigation:auto}
+::view-transition-old(root){animation:pageDepart .22s ease-in both}
+::view-transition-new(root){animation:pageArrive .46s cubic-bezier(.16,1,.3,1) both}
+.header{view-transition-name:site-header}
+::view-transition-old(site-header),::view-transition-new(site-header){animation:none;mix-blend-mode:normal}
+@keyframes pageDepart{to{opacity:0;transform:translateY(-8px)}}
+@keyframes pageArrive{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+/* A short sequence lets visitors read the page as each section enters. */
+.motion-ready .reveal{transition:opacity .75s ease,transform .9s cubic-bezier(.16,1,.3,1);transition-delay:var(--reveal-delay,0ms)}
+.motion-ready .reveal:not(.visible){transform:translateY(32px)}
+.motion-ready .section-top{position:relative;border-bottom-color:transparent}
+.motion-ready .section-top:after{content:'';position:absolute;left:0;right:0;bottom:0;height:1px;background:var(--line);transform:scaleX(0);transform-origin:left;transition:transform 1.1s cubic-bezier(.16,1,.3,1)}
+.motion-ready .heritage .section-top:after{background:#f2e5c955}
+.motion-ready .section-top.visible:after{transform:scaleX(1)}
+.motion-ready .section-heading.visible>h2,.motion-ready .editorial-copy.visible>h2{animation:headingArrive .85s cubic-bezier(.16,1,.3,1) both}
+.motion-ready .section-heading.visible>p,.motion-ready .section-heading.visible>div{animation:headingArrive .85s .12s cubic-bezier(.16,1,.3,1) both}
+@keyframes headingArrive{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+/* The image itself settles inside the existing frame; layout dimensions stay fixed. */
+.motion-ready figure.reveal.visible .photo-button img,.motion-ready .activity-item.visible .activity-photo img{animation:photoSettle 1.1s var(--reveal-delay,0ms) cubic-bezier(.16,1,.3,1) backwards}
+@keyframes photoSettle{from{transform:scale(1.055)}to{transform:scale(1)}}
+/* Let hover effects take over again after the one-time image entrance. */
+@media(hover:hover) and (pointer:fine){.activity-photo img{transition:transform .7s cubic-bezier(.16,1,.3,1)}.activity-item:hover .activity-photo img{transform:scale(1.035)}}
+.banner-hero .hero-backdrop{animation:headerPanorama 1.5s cubic-bezier(.16,1,.3,1) both}
+@keyframes headerPanorama{from{opacity:.55;transform:scale(1.06)}to{opacity:1;transform:scale(1)}}
+/* Preserve the complete house silhouette while the illustration fades into place. */
+.hero .hero-visual .facade{animation:houseArrive 1.1s .1s cubic-bezier(.16,1,.3,1) both}
+@keyframes houseArrive{from{opacity:0;transform:translateY(16px) scale(.97)}to{opacity:1;transform:translateY(0) scale(1)}}
+.motion-ready .brigadier-divider{transition:opacity .8s;transform:none}
+.motion-ready .brigadier-divider.visible .brigadier-silhouette{animation:emblemArrive .9s cubic-bezier(.16,1,.3,1) both}
+.motion-ready .brigadier-divider:before,.motion-ready .brigadier-divider:after{transform:scaleX(0);transition:transform 1.15s .12s cubic-bezier(.16,1,.3,1)}
+.motion-ready .brigadier-divider:before{transform-origin:right}.motion-ready .brigadier-divider:after{transform-origin:left}
+.motion-ready .brigadier-divider.visible:before,.motion-ready .brigadier-divider.visible:after{transform:scaleX(1)}
+@keyframes emblemArrive{from{opacity:0;transform:scale(.88)}to{opacity:1;transform:scale(1)}}
+/* Responsive controls give a small visual response without moving surrounding content. */
+.button,.nav-visit,.hero-enlarge,.photo-prev,.photo-next,.close-lightbox{transition:transform .22s ease,background-color .22s ease,box-shadow .22s ease}
+.button span,.text-link span,.nav-visit span{display:inline-block;transition:transform .25s ease}
+@media(hover:hover){.button:hover span,.text-link:hover span,.nav-visit:hover span{transform:translate(2px,-2px)}.button:hover{box-shadow:0 7px 18px #74172c1a}.hero-enlarge:hover,.photo-prev:hover,.photo-next:hover{transform:translateY(-2px)}}
+.button:active,.nav-visit:active,.hero-enlarge:active{transform:scale(.98)}
+.lightbox[open]{animation:galleryOpen .32s cubic-bezier(.16,1,.3,1) both}
+.lightbox[open]::backdrop{animation:backdropOpen .28s ease-out both}
+@keyframes galleryOpen{from{opacity:0;transform:translateY(16px) scale(.98)}to{opacity:1;transform:translateY(0) scale(1)}}
+@keyframes backdropOpen{from{opacity:0}to{opacity:1}}
+@media(max-width:760px){.motion-ready .reveal:not(.visible){transform:translateY(20px)}.motion-ready .brigadier-divider:not(.visible){transform:none}.motion-ready .reveal{transition-duration:.6s,.75s}.header nav.open{animation:mobileMenuOpen .25s ease-out both}@keyframes mobileMenuOpen{from{opacity:0;transform:translateY(-8px)}to{opacity:1;transform:translateY(0)}}}
+/* Content stays available with no script, unsupported APIs, or reduced motion. */
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}.motion-ready .reveal:not(.visible){opacity:1;transform:none}::view-transition-old(*),::view-transition-new(*){animation:none!important}}

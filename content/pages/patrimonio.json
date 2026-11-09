@@ -1,0 +1,159 @@
+{
+  "seo": {
+    "descripcion": "Retratos, esculturas, documentos y objetos nos acercan a los habitantes de la casa y a distintas maneras de recordar el pasado de Santa Fe.",
+    "titulo_social": "Patrimonio · Casa del Brigadier",
+    "descripcion_social": "Casa del Brigadier Estanislao López · Santa Fe",
+    "titulo": "Patrimonio · Casa del Brigadier Estanislao López"
+  },
+  "secciones": {
+    "inicio": {
+      "imagenes": {
+        "imagen_1": {
+          "archivo": "/assets/patrimonio-1.webp",
+          "alternativo": "Bastón y pintura exhibidos en el museo",
+          "epigrafe": ""
+        }
+      },
+      "textos": {
+        "boton_1": "Inicio",
+        "etiqueta_1": "Patrimonio",
+        "parrafo_1": "CASA DEL BRIGADIER ESTANISLAO LÓPEZ",
+        "titulo_1": "Objetos que cuentan",
+        "titulo_2": "nuestra ",
+        "titulo_3": "historia.",
+        "parrafo_2": "Retratos, esculturas, documentos y objetos nos acercan a los habitantes de la casa y a distintas maneras de recordar el pasado de Santa Fe.",
+        "boton_2": "Empezá a descubrir ",
+        "etiqueta_2": "Ampliar imagen "
+      }
+    },
+    "representaciones": {
+      "imagenes": {
+        "imagen_1": {
+          "archivo": "/assets/patrimonio-2.webp",
+          "alternativo": "Pintura del Brigadier Estanislao López a caballo",
+          "epigrafe": "Representación de Estanislao López a caballo."
+        }
+      },
+      "textos": {
+        "parrafo_1": "01 / ARTE Y REPRESENTACIONES",
+        "titulo_1": "Un rostro.",
+        "titulo_2": "Muchas ",
+        "titulo_3": "miradas.",
+        "parrafo_2": "Pinturas, retratos y bustos muestran distintas representaciones de Estanislao López: su figura, su vestimenta y su lugar en la memoria santafesina.",
+        "parrafo_3": "Las obras y reproducciones, acompañadas por recursos explicativos, permiten pensar cómo las imágenes construyen y transmiten recuerdos. Cada representación propone una manera de mirar al Brigadier y a su época.",
+        "desplegable_1": "Una invitación a observar",
+        "parrafo_4": "Detenete en la postura, la vestimenta y el entorno de cada retrato. Comparar imágenes ayuda a reconocer que una representación no solo muestra a una persona: también expresa una forma de recordarla.",
+        "etiqueta_1": "Ampliar "
+      }
+    },
+    "documentos": {
+      "imagenes": {
+        "imagen_1": {
+          "archivo": "/assets/patrimonio-4.webp",
+          "alternativo": "Retrato de Josefa acompañado por documentos expuestos",
+          "epigrafe": "Documentos y retratos: otras formas de acercarse a la memoria familiar."
+        }
+      },
+      "textos": {
+        "parrafo_1": "02 / MEMORIA ESCRITA",
+        "titulo_1": "Historias que también",
+        "titulo_2": "se leen en ",
+        "titulo_3": "papel.",
+        "parrafo_2": "Libros, impresos y reproducciones documentales acompañan las salas y muestran cómo se investigaron y difundieron la vida de López y la historia de Santa Fe.",
+        "parrafo_3": "Entre los materiales presentados en el recorrido hay documentos matrimoniales, retratos familiares y fotografías identificadas como pertenecientes a la familia De la Torre, vinculada a una etapa posterior de la casa.",
+        "desplegable_1": "Lo que aporta un documento",
+        "parrafo_4": "Los materiales escritos ayudan a relacionar nombres, acontecimientos y objetos. Leídos junto con las imágenes y la arquitectura, aportan contexto y permiten reconocer cómo se contó la historia en distintas épocas.",
+        "etiqueta_1": "Ampliar "
+      }
+    },
+    "objetos": {
+      "imagenes": {
+        "imagen_1": {
+          "archivo": "/assets/patrimonio-5.webp",
+          "alternativo": "Réplicas de la indumentaria de Josefa y Estanislao",
+          "epigrafe": "«Josefa y Estanislao» · Réplicas de indumentaria del matrimonio López."
+        }
+      },
+      "textos": {
+        "parrafo_1": "03 / INDUMENTARIA Y OBJETOS",
+        "titulo_1": "Acercarse a una época",
+        "titulo_2": "a través de sus ",
+        "titulo_3": "detalles.",
+        "parrafo_2": "La muestra «Josefa y Estanislao» incluye réplicas de la indumentaria del matrimonio López. Estas recreaciones permiten visualizar estilos de vestir y aproximarse a las costumbres del período.",
+        "parrafo_3": "El sector dedicado al bastón del Brigadier presenta una recreación de esa pieza. La distinción entre originales y recreaciones forma parte de una mirada atenta sobre el patrimonio expuesto.",
+        "desplegable_1": "Originales, réplicas y recreaciones",
+        "parrafo_4": "Una réplica o recreación es un recurso para explicar y acercar aspectos de la historia. Al recorrer las salas, consultá las referencias de cada pieza para conocer su carácter y su relación con el relato del museo.",
+        "etiqueta_1": "Ampliar "
+      }
+    },
+    "arqueologia": {
+      "imagenes": {
+        "imagen_1": {
+          "archivo": "/assets/patrimonio-7.webp",
+          "alternativo": "Panel interpretativo sobre el trabajo arqueológico en la casa",
+          "epigrafe": "La investigación arqueológica también integra el recorrido del museo."
+        }
+      },
+      "textos": {
+        "parrafo_1": "04 / PATRIMONIO ARQUEOLÓGICO",
+        "titulo_1": "Pequeñas huellas.",
+        "titulo_2": "Grandes ",
+        "titulo_3": "preguntas.",
+        "parrafo_2": "Las investigaciones realizadas durante la recuperación del edificio permitieron estudiar sus etapas de ocupación y construcción. Los restos materiales ayudan a comprender usos del espacio anteriores y posteriores a la vivienda de los López.",
+        "parrafo_3": "La Sala de Excavación presenta el trabajo del equipo de Arqueología del Museo Etnográfico y Colonial Juan de Garay. Sus paneles explican cómo los hallazgos amplían el conocimiento del pasado de la casa.",
+        "desplegable_1": "El valor del contexto",
+        "parrafo_4": "Un fragmento aporta información por su material y sus características, pero también por el contexto en que fue encontrado. La arqueología relaciona esas evidencias para interpretar la vida y las transformaciones de un lugar.",
+        "etiqueta_1": "Ampliar "
+      }
+    },
+    "navegacion": {
+      "imagenes": {
+        "imagen_1": {
+          "archivo": "/assets/busto.jpg",
+          "alternativo": "Busto de piedra de Estanislao López",
+          "epigrafe": "Bustos y representaciones del Brigadier."
+        },
+        "imagen_2": {
+          "archivo": "/assets/patrimonio-6.webp",
+          "alternativo": "Reconocimiento exhibido en una vitrina del museo",
+          "epigrafe": "Un reconocimiento conservado en la exhibición."
+        },
+        "imagen_3": {
+          "archivo": "/assets/publicaciones.jpg",
+          "alternativo": "Publicaciones históricas expuestas en una vitrina",
+          "epigrafe": "La memoria escrita en el recorrido."
+        }
+      },
+      "textos": {
+        "boton_1": "Saltar al contenido",
+        "etiqueta_1": "EN ESTA PÁGINA",
+        "boton_2": "Arte y retratos",
+        "boton_3": "Documentos",
+        "boton_4": "Indumentaria y objetos",
+        "boton_5": "Arqueología",
+        "parrafo_1": "DETENETE EN LOS DETALLES",
+        "titulo_1": "Otra forma de ",
+        "titulo_2": "mirar.",
+        "etiqueta_2": "Ampliar ",
+        "etiqueta_3": "Ampliar ",
+        "etiqueta_4": "Ampliar "
+      }
+    },
+    "pie": {
+      "enlaces": {
+        "enlace_1": "https://www.santafeciudad.gov.ar/capitalcultural/huellas-de-mi-ciudad/patrimonio-publico/arquitectonico/casa-del-brigadier-estanislao-lopez/"
+      }
+    },
+    "continuar": {
+      "textos": {
+        "parrafo_1": "SEGUÍ EL RECORRIDO",
+        "titulo_1": "El patrimonio se descubre",
+        "titulo_2": "con ",
+        "titulo_3": "tiempo y curiosidad.",
+        "parrafo_2": "Esta es una selección del recorrido. Las exposiciones temporales pueden variar; consultá las propuestas vigentes antes de visitar el museo.",
+        "boton_1": "Organizá tu visita",
+        "boton_2": "Recorré los espacios"
+      }
+    }
+  }
+}

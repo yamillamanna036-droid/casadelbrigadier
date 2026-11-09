@@ -1,0 +1,32 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+  functions = "netlify/functions"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+[functions]
+  node_bundler = "esbuild"
+  included_files = ["cms/settings.json"]
+
+[[redirects]]
+  from = "/api/auth"
+  to = "/.netlify/functions/auth"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/api/callback"
+  to = "/.netlify/functions/callback"
+  status = 200
+  force = true
+
+[[headers]]
+  for = "/admin/*"
+  [headers.values]
+    Cache-Control = "no-cache, no-store, must-revalidate"
+    X-Robots-Tag = "noindex, nofollow"
+    Referrer-Policy = "same-origin"
+
+# No SPA fallback: /casa/ and the other pages keep their own index.html.
